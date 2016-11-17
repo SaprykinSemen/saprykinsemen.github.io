@@ -1,0 +1,23 @@
+
+@font-face {
+	font-family: 'Conv_blackjack';
+	src: url('../fonts/blackjack.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Proxima Nova Regular';
+	src: url('../fonts/Proxima Nova Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/FontAwesome.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+

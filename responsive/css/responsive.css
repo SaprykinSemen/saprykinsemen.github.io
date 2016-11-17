@@ -1,0 +1,149 @@
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+    .container{
+        width: 970px;
+        padding: 0 15px;
+    }
+    .header-content-psd{
+        width: 100%;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    .container {
+        width: 750px;
+        padding: 0 15px;
+    }
+    .header-content-meet{
+        width: 58%;
+        text-align: left;
+    }
+    .header-content-psd{
+        width: 58%;
+        text-align: left;
+    }
+    .header-content-download {
+        margin: 60px 265px 60px 200px;
+    }
+    .longwinded-download{
+        margin: 60px 0 100px;
+    }
+    .get-dog-download{
+        margin: 60px 0 200px;
+    }
+    .like-what-download{
+        margin: 45px 0 80px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+    .container{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .header-content-meet{
+        width: 67%;
+        text-align: left;
+        margin: 30px 0;
+    }
+    .header-content-psd{
+        width: 67%;
+        text-align: left;
+    }
+    .longwinded-header-paragraph1,
+    .longwinded-header-paragraph2{
+        width: 83%;
+    }
+    .get-dog-content{
+        width: 52%;
+    }
+    .get-dog-header{
+        margin-top: 45px;
+    }
+    .get-dog-paragraph1,
+    .get-dog-paragraph2{
+        margin-top: 25px;
+    }
+    .header-content-download {
+        margin: 30px 33% 30px 33%;
+    }
+    .longwinded-download{
+        margin: 60px 0 100px;
+    }
+    .get-dog-download{
+        margin: 60px 0 60px;
+    }
+    .like-what-download{
+        margin: 45px 0 80px;
+    }
+    .links-icons{
+        padding-top: 40px;
+    }
+    .links-newsletter{
+        padding-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width: 479px) and (min-width: 320px) {
+    .container{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .header-content-meet{
+        width: 100%;
+        text-align: left;
+        margin: 30px 0;
+    }
+    .header-content-psd{
+        width: 100%;
+        text-align: left;
+    }
+    .longwinded-header-headline{
+        padding-top: 20px;
+    }
+    .longwinded-header-paragraph1,
+    .longwinded-header-paragraph2{
+        width: 83%;
+    }
+    .get-dog-content{
+        width: 65%;
+    }
+    .get-dog-header{
+        margin-top: 45px;
+    }
+    .get-dog-paragraph1,
+    .get-dog-paragraph2{
+        margin-top: 25px;
+    }
+    .header-content-download {
+        margin: 30px 10% 30px 10%;
+    }
+    .longwinded-download{
+        margin: 30px 0 30px;
+    }
+    .get-dog-download{
+        margin: 30px 0 200px;
+    }
+    .like-what-download{
+        margin: 45px 0 41px;
+    }
+    .links-newsletter-form-email{
+        margin-top: 10px;
+    }
+    .links-icons{
+        padding-top: 20px;
+    }
+    .links-icons-reference{
+        margin-right: 70px;
+        margin-bottom: 10px;
+    }
+    .links-newsletter{
+        padding-bottom: 40px;
+        margin-top: 30px;
+    }
+    .footer-content{
+        padding: 10px 0;
+    }
+
+}
