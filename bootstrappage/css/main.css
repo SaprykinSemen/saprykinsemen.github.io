@@ -14,7 +14,7 @@ body{
 	background-color: #e84545;
 	border: none;
 	text-transform: uppercase;
-	color: #fff;
+	color: #fff;	
 }
 
 .btn_md{
@@ -124,6 +124,12 @@ nav{
 	color: #e84545;
 }
 
+.param_block span:hover{
+	transform: scale(1.2, 1.2);	
+}
+
+
+
 .param_block h3{
 	font-family: "RalewayBold", sans-serif;
 	font-size: 18px;
@@ -138,7 +144,7 @@ nav{
 
 /*WORKS_S*/
 .work_block{
-	position: relative;
+	position: relative;	
 }
 
 .image_wrap{
@@ -170,6 +176,14 @@ nav{
 .team{
 	padding: 90px 0;
 }
+.team_block img{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.team_block img:hover{
+	transform: scale(1.1, 1.1);
+
+}
 
 .team_block h4{
 	margin-top: 30px;
@@ -195,7 +209,6 @@ nav{
 	background-color: transparent;
 	width: 40px;
 	height: 40px;
-
 }
 
 /*DOWNLOAD_S*/
