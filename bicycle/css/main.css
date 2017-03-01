@@ -134,5 +134,49 @@ nav{
 	position: absolute;	
 }
 
+/*TWITTER*/
+
+.slider{
+	height: 470px;
+	background-color: #f7f7f7;
+}
+
+.slider_item{
+	text-align: center;
+	margin-top: 125px;
+}
+
+.slider_item i{
+	font-size: 27px;
+	color: #56c7ee;
+}
+
+.slider_item h3{
+	font-family: 'Conv_Lato-Bold', sans-serif;
+	font-size: 18px;
+	color: rgb(53, 55, 56);
+	letter-spacing: 2px;
+}
+
+.slider_item h3 span{
+	font-family: 'Conv_Lato-Regular', sans-serif;
+	color: rgb(132, 135, 137);
+	font-weight: 300;
+}
+
+.slider_item p{	
+	color: rgb(132, 135, 137);
+	font-family: 'Conv_Lato-Italic', sans-serif;
+	font-size: 24px;	
+	line-height: 34px;
+}
+
+.carousel-indicators li{
+	border: 1px solid #a9afb3;
+}
+.carousel-indicators .active{
+	background-color: #a9afb3;
+}
+
 
 
