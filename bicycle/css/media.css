@@ -45,6 +45,22 @@
         line-height: 30px;
         text-align: center;
     }
+
+    .new_ganaration{        
+        padding: 70px 0;        
+    }
+
+    .new_ganaration_block h1{
+        margin: 25px 0;        
+        font-size: 15px;        
+        letter-spacing: 3px;
+    }
+
+    .new_ganaration_block p{          
+        font-size: 14px;    
+        line-height: 24px;
+    }
+
     .works_block{
     height: auto;
     }
@@ -89,8 +105,23 @@
         line-height: 30px;
         text-align: center;
     }
+
+    .new_ganaration{        
+        padding: 35px 0;        
+    }
+
+    .new_ganaration_block h1{
+        margin: 25px 0;        
+        font-size: 14px;        
+        letter-spacing: 2px;
+    }
+
+    .new_ganaration_block p{          
+        font-size: 13px;    
+        line-height: 20px;
+    }
     .works_block{
-    height: auto;
+        height: auto;
     }
 
     .works_block>img{
@@ -102,6 +133,18 @@
     }
     .works_block_retro_content{
         height: 300px;
+    }
+    .works_block_retro_content h2{
+        margin: 20px 0;        
+        font-size: 13px;        
+        letter-spacing: 2px;
+    }
+
+    .works_block_retro_content p{        
+        padding: 0 35px;    
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 25px;  
     }
 }
 
@@ -116,6 +159,22 @@
         line-height: 30px;
         text-align: center;
     }
+
+    .new_ganaration{        
+        padding: 25px 0;        
+    }
+
+    .new_ganaration_block h1{
+        margin: 15px 0;        
+        font-size: 12px;        
+        letter-spacing: 1px;
+    }
+
+    .new_ganaration_block p{          
+        font-size: 11px;    
+        line-height: 15px;
+    }
+
     .works_block{
     height: auto;
     }
@@ -128,6 +187,18 @@
         height: auto;    
     }
     .works_block_retro_content{
-        height: 300px;
+        height: 250px;
+    }
+    .works_block_retro_content h2{
+        margin: 10px 0;        
+        font-size: 11px;        
+        letter-spacing:1px;
+    }
+
+    .works_block_retro_content p{        
+        padding: 0 35px;    
+        font-size: 10px;
+        line-height: 14px;
+        padding-bottom: 25px;  
     }
 }
