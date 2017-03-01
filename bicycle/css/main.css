@@ -119,6 +119,19 @@ nav{
 	font-family: 'Conv_Lato-Regular', sans-serif;
 	font-size: 16px;
 	line-height: 30px;
+	margin: 0;
+	padding-bottom: 25px;
+}
+
+.works_block_retro_content{
+	position: relative;
+}
+.works_block_retro_content:after{
+	content: '';
+	width: 50px;
+	height: 2px;
+	background-color: #d7d7d7;
+	position: absolute;	
 }
 
 

@@ -11,6 +11,9 @@
     .works_block_retro{
         height: auto;    
     }
+    .works_block_retro_content{
+        height: 350px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -29,6 +32,9 @@
         line-height: 30px;
         text-align: center;
     }
+    .works_block_retro_content{
+        height: 350px;
+    }
 }
 
 /* Extra Small Devices, Phones */ 
@@ -42,6 +48,9 @@
         line-height: 30px;
         text-align: center;
     }
+    .works_block_retro_content{
+        height: 350px;
+    }
 }
 
 /* Custom, iPhone Retina */ 
@@ -54,5 +63,8 @@
     .menu li{
         line-height: 30px;
         text-align: center;
+    }
+    .works_block_retro_content{
+        height: 350px;
     }
 }
