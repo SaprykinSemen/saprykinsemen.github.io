@@ -12,13 +12,26 @@
         height: auto;    
     }
     .works_block_retro_content{
-        height: 350px;
+        height: 330px;
     }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    .works_block{
+    height: auto;
+    }
 
+    .works_block>img{
+        height: auto;
+    }
+
+    .works_block_retro{
+        height: auto;    
+    }
+    .works_block_retro_content{
+        height: 350px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -32,8 +45,19 @@
         line-height: 30px;
         text-align: center;
     }
+    .works_block{
+    height: auto;
+    }
+
+    .works_block>img{
+        height: auto;
+    }
+
+    .works_block_retro{
+        height: auto;    
+    }
     .works_block_retro_content{
-        height: 350px;
+        height: 400px;
     }
 }
 
