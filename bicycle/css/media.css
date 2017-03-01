@@ -72,8 +72,19 @@
         line-height: 30px;
         text-align: center;
     }
+    .works_block{
+    height: auto;
+    }
+
+    .works_block>img{
+        height: auto;
+    }
+
+    .works_block_retro{
+        height: auto;    
+    }
     .works_block_retro_content{
-        height: 350px;
+        height: 450px;
     }
 }
 
