@@ -57,7 +57,24 @@
         height: auto;    
     }
     .works_block_retro_content{
-        height: 400px;
+        height: 300px;
+    }
+
+    .works_block_retro_content img{
+        margin-top: 40px;
+    }
+
+    .works_block_retro_content h2{
+        margin: 20px 0;        
+        font-size: 14px;        
+        letter-spacing: 3px;
+    }
+
+    .works_block_retro_content p{        
+        padding: 0 35px;    
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 25px;  
     }
 }
 
@@ -84,7 +101,7 @@
         height: auto;    
     }
     .works_block_retro_content{
-        height: 450px;
+        height: 300px;
     }
 }
 
@@ -99,7 +116,18 @@
         line-height: 30px;
         text-align: center;
     }
+    .works_block{
+    height: auto;
+    }
+
+    .works_block>img{
+        height: auto;
+    }
+
+    .works_block_retro{
+        height: auto;    
+    }
     .works_block_retro_content{
-        height: 350px;
+        height: 300px;
     }
 }
