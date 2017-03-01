@@ -58,7 +58,7 @@
 
     .new_ganaration_block p{  
         text-align: justify;
-        margin: 0 10px;        
+        padding: 0 20px;        
         font-size: 14px;    
         line-height: 24px;
     }
@@ -120,7 +120,7 @@
 
     .new_ganaration_block p{ 
         text-align: justify; 
-        margin: 0 5px;            
+        padding: 0 15px;            
         font-size: 13px;    
         line-height: 20px;
     }
@@ -176,7 +176,7 @@
 
     .new_ganaration_block p{ 
         text-align: justify; 
-        margin: 0 5px;             
+        padding: 0 10px;             
         font-size: 11px;    
         line-height: 15px;
     }
