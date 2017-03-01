@@ -56,7 +56,9 @@
         letter-spacing: 3px;
     }
 
-    .new_ganaration_block p{          
+    .new_ganaration_block p{  
+        text-align: justify;
+        margin: 0 10px;        
         font-size: 14px;    
         line-height: 24px;
     }
@@ -116,7 +118,9 @@
         letter-spacing: 2px;
     }
 
-    .new_ganaration_block p{          
+    .new_ganaration_block p{ 
+        text-align: justify; 
+        margin: 0 5px;            
         font-size: 13px;    
         line-height: 20px;
     }
@@ -170,7 +174,9 @@
         letter-spacing: 1px;
     }
 
-    .new_ganaration_block p{          
+    .new_ganaration_block p{ 
+        text-align: justify; 
+        margin: 0 5px;             
         font-size: 11px;    
         line-height: 15px;
     }
