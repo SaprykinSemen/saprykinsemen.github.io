@@ -160,7 +160,7 @@
         font-size: 18px;    
         line-height: 28px;
     }
-    
+
 }
 
 /* Extra Small Devices, Phones */ 
@@ -238,6 +238,23 @@
     .slider_item p{        
         font-size: 16px;    
         line-height: 26px;
+    }
+
+    .mailing img{
+        margin-top: 80px;
+    }
+
+    .mailing h5{
+        padding: 40px 0;
+    }
+
+    .mailing_email{
+        width: 300px !important;
+        height: 50px;
+    }
+
+    .mailing form button{
+        height: 50px;
     }
 }
 
@@ -317,5 +334,9 @@
     .slider_item p{        
         font-size: 14px;    
         line-height: 24px;
+    }
+
+    .mailing_email{
+        width: 250px !important;
     }
 }
