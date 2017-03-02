@@ -221,15 +221,14 @@ flex-wrap: wrap;
 	text-decoration: none;
 }
 
-/*MAILING*/
-.mailing{
+.shop_button{
 	height: 200px;
 	background-color: rgb(40, 47, 53);
 	text-align: center;
 }
 
 
-.mailing button{
+.shop_button button{
 	text-align: center;
 	background-color: transparent;
 	border-radius: 0;
@@ -239,10 +238,53 @@ flex-wrap: wrap;
 	width: 300px;
 	margin-top: 75px;
 }
- .mailing button:hover{
+ .shop_button button:hover{
  	background-color: rgba(100, 194, 158, 0.8);
  }
 
+ /*MAILING*/
+
+.mailing{
+	height: 470px;
+	text-align: center;	
+}
+
+.mailing img{
+	margin-top: 110px;
+}
+
+.mailing h5{
+	color: rgb(132, 135, 137);
+	font-family: 'Conv_Lato-Italic', sans-serif;
+	font-size: 24px;	
+	line-height: 34px;
+	padding: 40px 0;
+}
+ 
+ .mailing_email{ 	
+ 	height: 70px;
+ 	width: 400px !important; 	
+ 	border-radius: 0;
+ 	font-family: 'Conv_Lato-Italic', sans-serif; 	
+	color: rgb(146, 146, 146);	
+	font-size: 20px;
+	display: inline-block;
+ }
+
+ .mailing form button{
+ 	height: 70px;
+ 	width: 126px;
+ 	border-radius: 0;
+ 	background-color: rgba(100, 194, 158, 1);
+ 	font-family: 'Conv_Lato-Regular', sans-serif;	
+ 	color: white;	
+	font-size: 24px;		
+	line-height: 24px;
+ }
+
+ .mailing form button:hover{
+ 	background-color: rgba(100, 194, 158, 0.8);
+ }
 
 
  
