@@ -161,6 +161,14 @@
         line-height: 28px;
     }
 
+    footer div{
+        text-align: center;
+    }
+
+    .yebo{
+        text-align: center;
+    }
+
 }
 
 /* Extra Small Devices, Phones */ 

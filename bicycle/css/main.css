@@ -244,8 +244,7 @@ flex-wrap: wrap;
 
  /*MAILING*/
 
-.mailing{
-	height: 470px;
+.mailing{	
 	text-align: center;	
 }
 
@@ -279,12 +278,85 @@ flex-wrap: wrap;
  	font-family: 'Conv_Lato-Regular', sans-serif;	
  	color: white;	
 	font-size: 24px;		
-	line-height: 24px;
+	line-height: 24px;	
  }
 
  .mailing form button:hover{
  	background-color: rgba(100, 194, 158, 0.8);
  }
+
+ .mailing form{
+ 	margin-bottom: 112px;
+ }
+
+/*FOOTER*/
+footer{
+	background-color: #f7f7f7;
+	height: 250px;
+	display: flex;
+	align-items: center;
+	font-family: 'Conv_Lato-Italic', sans-serif;	
+	font-size: 16px;
+	color: rgb(132, 135, 137);	
+	line-height: 18px;
+}
+
+footer div p{
+	font-family: 'Conv_Lato-Italic', sans-serif;	
+	color: rgb(132, 135, 137);	
+	line-height: 18px;
+}
+
+footer div p span{
+	font-family: 'Conv_Lato-Bold', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+
+.social_links{
+	text-align: center;
+	margin-top: 15px;
+}
+
+.social_links div{
+	width: 35px;
+	height: 35px;		
+	display: inline-block;
+	border-radius: 50%;	
+	font-size: 20px;
+	position: relative;
+}
+
+.social_links div:nth-child(1){
+	background-color: #78cdf0;
+}
+
+.social_links div:nth-child(2){
+	background-color: #537bbd;
+}
+
+.social_links div:nth-child(3){
+	background-color: #eb5755;
+}
+
+.social_links div i{
+	position: absolute;
+	color: white;
+	top: 8px;
+	left: 9px;
+}
+
+.social_links div:nth-child(2) i{
+	top: 8px;
+	left: 11px;
+}
+
+.yebo{	
+	margin-top: 15px;
+	text-align: right;
+}
+
 
 
  
