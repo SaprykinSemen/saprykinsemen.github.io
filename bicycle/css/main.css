@@ -221,6 +221,28 @@ flex-wrap: wrap;
 	text-decoration: none;
 }
 
+/*MAILING*/
+.mailing{
+	height: 200px;
+	background-color: rgb(40, 47, 53);
+	text-align: center;
+}
+
+
+.mailing button{
+	text-align: center;
+	background-color: transparent;
+	border-radius: 0;
+	color: white;
+	margin: auto;	
+	height: 50px;
+	width: 300px;
+	margin-top: 75px;
+}
+ .mailing button:hover{
+ 	background-color: rgba(100, 194, 158, 0.8);
+ }
+
 
 
  
