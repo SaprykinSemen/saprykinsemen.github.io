@@ -14,12 +14,15 @@ header{
 	background-size: cover;	
 	background-repeat: no-repeat;
 	height: 0;	
-	padding-bottom: 50%;		
+	padding-bottom: 50%;	
+}
+
+.header_logo{
+	position: absolute;	
 }
 
 .header_logo img{
-	width: 60px;
-	/*margin-left: 20px;*/
+	width: 60px;	
 }
 
 nav{
@@ -135,6 +138,7 @@ nav{
 	height: 2px;
 	background-color: #d7d7d7;
 	position: absolute;	
+	left: calc(50% - 25px);
 }
 
 /*TWITTER*/
