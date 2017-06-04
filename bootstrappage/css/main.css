@@ -275,11 +275,11 @@ nav{
 }
 
 /*MODAL*/
-#dlForm{
+.dlForm{
 	width: 70%;
 	margin: 0 auto;
 }
 
-#dlForm input{
+.dlForm input{
 	margin-bottom: 15px;
 }
