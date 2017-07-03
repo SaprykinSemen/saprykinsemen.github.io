@@ -42,6 +42,10 @@
 		margin: 60px 0 40px 40px;
 	}
 
+	.about_content_wrap{
+			text-align: right;
+		}
+
 	/* Small Devices, Tablets */
 	@media only screen and (max-width : 768px) {
 		/*Disable Animation on Mobile Devices*/
@@ -76,6 +80,17 @@
 			background-repeat: no-repeat;
 
 
+		}
+
+		.about_content_wrap{
+			flex-direction: column;
+			text-align: center;
+		}
+
+		
+
+		.about_content_img{
+			text-align: center;
 		}
 
 		.team_content{

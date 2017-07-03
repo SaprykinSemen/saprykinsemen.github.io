@@ -246,11 +246,8 @@ header {
   text-align: right;
 }
 
-.about_left .about_content_desc {
-  margin-right: 40px;
-}
-
 .about_content_desc {
+  margin-right: 40px;
   margin-left: 40px;
 }
 
