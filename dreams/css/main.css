@@ -1,0 +1,375 @@
+body {
+  color: #222;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.p8 {
+  padding: 0 8px;
+}
+
+.blue_line {
+  margin-top: 45px;
+  display: inline-block;
+  width: 112px;
+  height: 1px;
+  background-color: #36b9eb;
+}
+
+.blocks_name {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*----HEADER----*/
+header {
+  color: #fff;
+  background-image: url("../img/header-img.png");
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav_top {
+  padding-top: 50px;
+}
+
+.header_logo {
+  padding: 5px 0 0 30px;
+}
+
+.header_navbar_list {
+  list-style-type: none;
+}
+
+.header_navbar_item {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.header_navbar_item a {
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.header_navbar_item a:hover {
+  background-color: #35b9eb !important;
+}
+
+.header-main-text {
+  margin: 130px 0 0;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.header-text {
+  margin: 45px auto 145px;
+  color: #cccccc;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 425px;
+}
+
+/*----SERVICES----*/
+.services {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.services_name {
+  margin: 100px 0 0;
+}
+
+.services_item {
+  margin-top: 20px;
+}
+
+.services_item_icon {
+  color: #ddd;
+  font-size: 55px;
+}
+
+.services_item_name {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 30px 0 20px;
+}
+
+.services_item_text {
+  color: #888888;
+  line-height: 22px;
+}
+
+/*---OTHER EXPERTISE----*/
+.expertise {
+  padding-bottom: 100px;
+  background-color: #f7f7f7;
+  background-image: url("../img/expertise-img.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.expertise_head_name {
+  margin: 80px 0 40px;
+}
+
+.expertise_head_text {
+  color: #777777;
+  font-size: 16px;
+}
+
+.expertise_content {
+  margin-top: 55px;
+}
+
+.expertise_content_item {
+  width: 48%;
+  display: inline-block;
+}
+
+.expertise_content_item:nth-child(odd) {
+  margin-right: 20px;
+}
+
+.expertise_content_item_wrap {
+  display: flex;
+}
+
+.expertise_content_item_icon, .portfolio_content_item_icon {
+  display: inline-block;
+  font-size: 28px;
+  color: #777777;
+  font-size: 32px;
+}
+
+.expertise_content_item_text {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.expertise_content_item_text_name, .portfolio_content_item_text h3 {
+  margin: 7px 0 10px 0;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.expertise_content_item_text_desc, .portfolio_content_item_text p {
+  margin-bottom: 30px;
+  line-height: 22px;
+  color: #777777;
+}
+
+.expertise_button, .footer_submit_button {
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 17px 35px;
+  border: 1px solid #ceeefa;
+  border-radius: 32px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/*----PORTFOLIO----*/
+.portfolio {
+  background-image: url("../img/iPad-Air.png");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 60px;
+}
+
+.portfolio_head_name {
+  margin: 60px 0 40px;
+}
+
+.portfolio_head_text {
+  margin-bottom: 40px;
+  color: #898989;
+  line-height: 22px;
+}
+
+.portfolio_content_item {
+  display: flex;
+}
+
+.portfolio_content_item_text {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.portfolio_content_item_text p {
+  color: #898989;
+}
+
+.portfolio_galary_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio_galary_img {
+  width: 100%;
+}
+
+/*----ABOUT----*/
+.about {
+  padding-bottom: 100px;
+}
+
+.about_head {
+  text-align: center;
+}
+
+.about_head h2 {
+  margin: 100px 0 0;
+}
+
+.about_content_wrap {
+  margin-top: 85px;
+  display: flex;
+}
+
+.about_left {
+  text-align: right;
+}
+
+.about_left .about_content_desc {
+  margin-right: 40px;
+}
+
+.about_content_desc {
+  margin-left: 40px;
+}
+
+.about_content_desc_head {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 25px;
+}
+
+.about_content_desc_text {
+  color: #777;
+  line-height: 23px;
+}
+
+/*----TEAM----*/
+.team {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding-bottom: 100px;
+}
+
+.team_name {
+  margin-top: 100px;
+}
+
+.team_content {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team_content_item {
+  padding-bottom: 20px;
+}
+
+.team_content_item_name {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+
+.team_content_item_position {
+  color: #777777;
+}
+
+.team_photo {
+  height: 220px;
+  border: 7px solid #fff;
+  border-radius: 50%;
+}
+
+.social_button:nth-child(2) {
+  margin: 0 9px;
+}
+
+.social_buttons_img {
+  height: 40px;
+}
+
+.team_footer {
+  color: #777777;
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 45px;
+}
+
+/*----FOOTER----*/
+footer {
+  background-color: #111;
+  color: #fff;
+  padding-bottom: 80px;
+}
+
+.footer_wrap {
+  margin-top: 100px;
+}
+
+.contacts {
+  padding-right: 45px;
+}
+
+.contacts p {
+  padding: 15px 0 25px;
+}
+
+.contacts_name {
+  margin: 0;
+}
+
+.contact_links_item {
+  display: inline-block;
+  color: #fff;
+  width: 49%;
+  font-size: 30px;
+}
+
+.contact_links_item p {
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  top: -5px;
+  padding: 0 0 0 16px;
+}
+
+.footer_submit_button {
+  background-color: #35c2f8;
+  border: 0;
+  margin: 20px 0 0;
+}
+
+.footer_line {
+  height: 1px;
+  background-color: #fff;
+  margin-top: 60px;
+}
+
+.footer_copyright {
+  text-align: center;
+  margin-top: 60px;
+}

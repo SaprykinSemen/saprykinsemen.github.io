@@ -1,0 +1,150 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+	.expertise_head_text{
+		width: 90%;
+	}
+
+	.contacts{
+		padding-bottom: 30px;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.header_navbar_item{
+		margin-left: 0;
+	}
+	.header-main-text{
+		margin: 80px 0 0;
+	}
+
+	.header-text{
+		margin: 45px auto 100px;
+	}
+
+	.services{
+		padding-bottom: 50px;
+	}
+
+	.services_name{
+		margin: 50px 0 0;
+	}
+
+	.expertise_head_name{
+		font-size: 35px;
+	}
+	.portfolio_head_name{
+		margin: 60px 0 40px 40px;
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px) {
+		/*Disable Animation on Mobile Devices*/
+		.nav_top{
+			padding-top: 20px;
+			position: fixed;
+			width: 100%;
+			background-color: rgba(57, 55, 53, 0.9);
+			z-index: 5;
+		}
+
+		.nav_top_button{
+			font-size: 30px;
+			margin-top: 0;
+		}
+
+		.header_navbar_item{
+			display: block;
+		}
+
+		.header-main-text{
+			margin: 140px 0 0;
+			font-size: 40px;
+		}
+
+		.header-text{
+			margin: 45px auto 80px;
+		}
+
+		.portfolio{
+			background-size: contain;
+			background-repeat: no-repeat;
+
+
+		}
+
+		.team_content{
+			flex-direction: column;
+		}
+
+		footer{
+			padding-bottom: 40px;
+		}
+
+		.footer_wrap{
+			margin-top: 50px;
+		}
+
+		.contacts{
+			text-align: center;
+		}
+
+		.contact_links_item{
+			display: block;
+			width: 100%;
+		}
+	}
+
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 480px) {
+		.header-main-text{
+			margin: 140px 0 0;
+			font-size: 30px;
+		}
+
+		.header-text{
+			margin: 45px auto 60px;
+		}
+	}
+
+
+	/* Custom, iPhone Retina */
+	@media only screen and (max-width : 320px) {
+
+
+	}
+
+
+
+	/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */
+	@media only screen and (min-width : 320px) {
+
+	}
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (min-width : 480px) {
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+
+	}
