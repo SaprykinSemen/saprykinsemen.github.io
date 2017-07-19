@@ -1782,7 +1782,7 @@ footer {
 
 .main-wrapper {
   max-width: 1200px;
-  min-width: 400px;
+  min-width: 380px;
   margin: 0 auto; }
 
 body {
@@ -2226,6 +2226,9 @@ body {
   .blog-item-review-txt,
   .blog-item-review-name {
     width: 90%; }
-  .manufacturers-head-button, .blog-head-button,
+  .manufacturers-head-button, .blog-head-button {
+    float: left; }
+  .blog-head-name {
+    margin-bottom: 10px; }
   .blog-head-button {
     float: left; } }
