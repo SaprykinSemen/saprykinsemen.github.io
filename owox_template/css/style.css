@@ -1778,7 +1778,7 @@ footer {
     flex-direction: column;
     align-items: center; }
   .footer-social-links-item {
-    width: 50%; } }
+    width: 55%; } }
 
 .main-wrapper {
   max-width: 1200px;
@@ -2220,4 +2220,11 @@ body {
       line-height: 25px;
       padding-bottom: 20px; }
   .bxslider-solutions-item .bxslider-text a {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .stock-item-text {
+    width: 70%; }
+  .blog-item-review-txt,
+  .blog-item-review-name {
+    width: 90%; }
+  .manufacturers-head-button, .blog-head-button, .blog-head-button {
+    float: left; } }
