@@ -724,5 +724,6 @@ body {
   .blog-item-review-txt,
   .blog-item-review-name {
     width: 90%; }
-  .manufacturers-head-button, .blog-head-button, .blog-head-button {
+  .manufacturers-head-button, .blog-head-button,
+  .blog-head-button {
     float: left; } }
