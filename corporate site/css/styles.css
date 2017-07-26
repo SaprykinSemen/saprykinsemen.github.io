@@ -1,7 +1,9 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #f3f3f3; }
-
+  background-color: #f3f3f3; 
+  max-width: 1600px;
+  margin: 0 auto;
+}
 /*----------HEADER---------*/
 .header {
   background-color: #76c7c0;

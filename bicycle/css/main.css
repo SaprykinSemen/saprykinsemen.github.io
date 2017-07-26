@@ -1,5 +1,7 @@
 body{
 	font-family: 'Conv_Lato-Regular', sans-serif;	
+	max-width: 1600px;
+	margin: 0 auto;
 }
 
 .p0{
