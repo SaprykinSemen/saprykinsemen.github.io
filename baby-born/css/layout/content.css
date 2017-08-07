@@ -869,9 +869,10 @@
 /*----- THANK REGISTRATION POPUP -----*/
 
 .thank-registration-popup{
+
   position: relative;
   background: #FFF;
-  display: block;
+  display: none;
   width: auto;
   max-width: 293px;
   margin: 20px auto;

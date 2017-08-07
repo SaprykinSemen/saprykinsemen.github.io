@@ -3,8 +3,8 @@ $(document).ready(function() {
 	
 
 	$('.header-menu-btn').on('click', function() {	
-	$('.header-nav-wrap').toggle();
-});
+		$('.header-nav-wrap').toggle();
+	});
 
 	$('.location-link').magnificPopup({
 		type:'inline',
@@ -31,12 +31,16 @@ $(document).ready(function() {
 	});
 
 	$('.registration-form-btn').magnificPopup({
-  items: {
-      src: '.thank-registration-popup',
-      type: 'inline'
-  },
-  closeBtnInside: true
-});
+		items: {
+			src: '.thank-registration-popup',
+			type: 'inline',
+
+		},
+		closeBtnInside: true
+	});
+	$('.registration-form-btn').on('click', function() {	
+		$('.thank-registration-popup').show();
+	});
 
 	$('.main-slider').bxSlider({
 		pager: false,
