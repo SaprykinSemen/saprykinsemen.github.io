@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Главная</title>
+	<link rel="stylesheet" href="css/base/reset.css">
+	<link rel="stylesheet" href="css/components/bootstrap.css">
+	<link rel="stylesheet" href="css/components/jquery.magnific-popup.css">
+	<link rel="stylesheet" href="css/components/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/base/fonts.css">
+	<link rel="stylesheet" href="css/layout/header.css">
+	<link rel="stylesheet" href="css/layout/content.css">
+	<link rel="stylesheet" href="css/layout/footer.css">
+	<link rel="stylesheet" href="css/layout/media.css">
+
+	<!-- Pixel Glass -->
+	<style>
+		HTML {
+			background-repeat: no-repeat;
+			background-position:  50% 0;
+			background-image: url( "PSD/десктоп/внутренние/Главная.jpg" );
+		}  
+	</style>
+	<link href="node_modules/pixel-glass/styles.css" rel="stylesheet">
+	<script src="node_modules/pixel-glass/script.js"></script>
+	<!-- // Pixel Glass -->
+</head>
+<body>
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">					
+						<div class="header-wrap">
+							<div class="location">
+								<img src="img/header-icon-1.png" alt="" class="location-img">
+								<p class="location-txt" >Ваш регион: 
+									<a class="location-link" href="#location-popup">Москва</a>
+									<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAADBAMAAABCL2PIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAD1BMVEX////qRW3qRW3qRW3///+6pbfcAAAAA3RSTlMAAv6SRXlHAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABRJREFUCNdjEDI2ZhA0NmBgEGYAAAdaAQDZKIe2AAAAAElFTkSuQmCC" width="6" height="3" alt="mini-arrow.png">
+								</p>	
+							</div><!-- end of location -->
+							<nav class="header-nav-wrap">
+								<ul class="header-nav">
+									<li class="header-nav-item"><a href="#" class="header-nav-link">Доставка</a></li>
+									<li class="header-nav-item"><a href="#" class="header-nav-link">Оплата</a></li>
+									<li class="header-nav-item"><a href="#" class="header-nav-link">О нас</a></li>
+									<li class="header-nav-item"><a href="#" class="header-nav-link">Контакты</a></li>
+								</ul>
+							</nav><!-- end of header-nav-wrap -->
+							<div class="header-enter">
+								<img src="img/header-icon-2.png" alt="" class="header-enter-img">
+								<a href="#enter-popup" class="header-enter-link">Войти</a>
+								<span>/</span>
+								<a href="#registration-popup" class="header-enter-link-registration"> Регистрация</a>
+							</div><!-- end of header-enter -->
+							<button class="header-menu-btn hidden-lg hidden-md">
+								<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAMAAAB4p3UoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAk1BMVEX///9X3PhA2fdw3/dd3fgAvvAA0/ZE2fZE2fdD2fZE2vgAvvGJ4/l64vkA0/UA0fUAue8Av/AAwvIAwvEAwfEAwfIAwvMAv/EAu/EA0fUAz/WO5fl+4/kAx/KV5vm17vu17fq17fu27vu17vy27vyR5voAxfP////4/v77/v79///+/v/8/v/9/v/6/v79/v7+/v7GJHsLAAAAJ3RSTlMACAEIAQEEBAQEBAEIAQgBAQEBAQEBAQEBCAEIAQIGBgYGBgYGBgFMO9FiAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAGlJREFUCNdjYFRHBUwMzGgiLAysbOwcnOzs7BwcnBzsXBxs3AzEAB40c3gZ+DRQRfgZBASFhEWAQAhEiYqJSxBlsqSmupa6ura2to6utp6+poEUgzSaXTIMsnLyCopKCgryQKCkrKKqBgDw1RKbbyWeBwAAAABJRU5ErkJggg==" width="17" height="13" alt="Слой-831.png">								
+							</button>
+						</div><!-- end of header-wrap -->								
+					</div><!-- end of col -->
+				</div><!-- end of row -->
+			</div><!-- end of container -->
+		</div><!-- end of nav-top -->
+		<div class="header-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-3 col-md-12 col-lg-3">						
+						<a href="#" class="header-logo">
+							<img class="header-logo-img" src="img/logo.png" alt="LOVE BABY BORN">
+							<p class="header-logo-txt" >интернет-магазин</p>
+						</a>
+					</div><!-- end of col -->
+					<div class="col-xs-12 col-md-5 col-lg-4">
+						<form class="header-search" action="#" method="get">
+							<input class="header-search-input" name="header-form" placeholder="Найти товары" type="search" required>
+							<button class="header-search-btn" type="submit"><img src="img/header-icon-3.png" alt=""></button>
+						</form><!-- end of header-search -->
+					</div><!-- end of col -->
+					<div class="col-xs-12 col-md-7 col-lg-5 p0">
+						<div class="header-call">								
+							<a href=""><img class="header-call-img" src="img/header-icon-4.png" alt=""></a>
+							<div class="header-call-block">
+								<a class="header-callback" href="#callback-popup">
+									Заказать обратный звонок
+								</a>
+								<a href="tel:+88007882528" class="header-phone">8 (800) 788-25-28</a>
+								<a href="tel:+88004953739" class="header-phone">8 (800) 495-37-39</a>	
+							</div>
+
+						</div><!-- end of header-call -->
+						<a href="" class="header-cart">
+							<div><img src="img/header-icon-5.png" alt="" class="header-cart-img"></div>
+							<p class="header-cart-txt">
+								В корзине пока нет товаров
+							</p>
+						</a><!-- end of header-cart -->
+					</div><!-- end of col -->					
+				</div><!-- end of row -->
+			</div><!-- end of container -->
+		</div><!-- end of header-bottom -->	
+	</header>
+
+	<main class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-5 col-md-3">
+					<aside class="sidebar">
+						<nav class="catalog">
+							<a href="#" class="catalog-btn">
+								<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAMAAAB4p3UoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAk1BMVEX///9X3PhA2fdw3/dd3fgAvvAA0/ZE2fZE2fdD2fZE2vgAvvGJ4/l64vkA0/UA0fUAue8Av/AAwvIAwvEAwfEAwfIAwvMAv/EAu/EA0fUAz/WO5fl+4/kAx/KV5vm17vu17fq17fu27vu17vy27vyR5voAxfP////4/v77/v79///+/v/8/v/9/v/6/v79/v7+/v7GJHsLAAAAJ3RSTlMACAEIAQEEBAQEBAEIAQgBAQEBAQEBAQEBCAEIAQIGBgYGBgYGBgFMO9FiAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAGlJREFUCNdjYFRHBUwMzGgiLAysbOwcnOzs7BwcnBzsXBxs3AzEAB40c3gZ+DRQRfgZBASFhEWAQAhEiYqJSxBlsqSmupa6ura2to6utp6+poEUgzSaXTIMsnLyCopKCgryQKCkrKKqBgDw1RKbbyWeBwAAAABJRU5ErkJggg==" width="17" height="13" alt="Слой-831.png">
+								Каталог товаров
+							</a><!-- end of catalog-btn -->	
+							<ul class="catalog-list">
+								<li class="catalog-list-item"><a href="#" class="catalog-list-link">Куклы и пупсы</a></li>
+								<li class="catalog-list-item"><a href="#" class="catalog-list-link">Одежда</a></li>
+								<li class="catalog-list-item"><a href="#" class="catalog-list-link">Обувь</a></li>
+								<li class="catalog-list-item"><a href="#" class="catalog-list-link">Аксессуары</a></li>
+								<li class="catalog-list-item"><a href="#" class="catalog-list-link">Питомцы</a></li>
+								<li class="catalog-list-item"><a href="#" class="catalog-list-link">Коляски</a></li>
+								<li class="catalog-list-item"><a href="#" class="catalog-list-link">Мебель</a></li>
+								<li class="catalog-list-item"><a href="#" class="catalog-list-link">Интерактивные</a></li>
+								<li class="catalog-list-item"><a href="#" class="catalog-list-link">My little Baby Born</a></li>
+								<li class="catalog-list-item"><a href="#" class="catalog-list-link">Baby Born Первая любовь</a></li>
+							</ul>
+						</nav><!-- end of catalog -->
+
+						<div class="sale-slider-wrap">
+							<h3 class="sale-slider-name">Акции</h3>
+							<ul class="sale-slider">
+								<li class="sale-slider-item" >
+									<div class="sale-item">
+										<div class="sale-item-img-wrap">
+											<img class="sale-item-img" src="img/new-3.png" alt="">
+										</div>
+										<a href="#" class="sale-item-name">
+											Кукла Llorens 40 см
+										</a>
+										<p class="sale-item-count">
+											Доступно более 10 шт.
+										</p>
+										<p class="sale-item-price">
+											3 800 &#8381;
+										</p>
+										<p class="sale-item-old-price">
+											4 800 &#8381;
+										</p>
+										<button class="sale-item-to-cart" type="button">В корзину</button>
+									</div>
+								</li>
+								<li class="sale-slider-item" >
+									<div class="sale-item">
+										<div class="sale-item-img-wrap">
+											<img class="sale-item-img" src="img/new-2.png" alt="">
+										</div>
+										<a href="#" class="sale-item-name">
+											Кукла Llorens 40 см
+										</a>
+										<p class="sale-item-count">
+											Доступно более 10 шт.
+										</p>
+										<p class="sale-item-price">
+											3 800 &#8381;
+										</p>
+										<p class="sale-item-old-price">
+											4 800 &#8381;
+										</p>
+										<button class="sale-item-to-cart" type="button">В корзину</button>
+									</div>
+								</li>
+								<li class="sale-slider-item" >
+									<div class="sale-item">
+										<div class="sale-item-img-wrap">
+											<img class="sale-item-img" src="img/new-1.png" alt="">
+										</div>
+										<a href="#" class="sale-item-name">
+											Кукла Llorens 40 см
+										</a>
+										<p class="sale-item-count">
+											Доступно более 10 шт.
+										</p>
+										<p class="sale-item-price">
+											3 800 &#8381;
+										</p>
+										<p class="sale-item-old-price">
+											4 800 &#8381;
+										</p>
+										<button class="sale-item-to-cart" type="button">В корзину</button>
+									</div>
+								</li>
+								<li class="sale-slider-item" >
+									<div class="sale-item">
+										<div class="sale-item-img-wrap">
+											<img class="sale-item-img" src="img/leader-1.png" alt="">
+										</div>
+										<a href="#" class="sale-item-name">
+											Кукла Llorens 40 см
+										</a>
+										<p class="sale-item-count">
+											Доступно более 10 шт.
+										</p>
+										<p class="sale-item-price">
+											3 800 &#8381;
+										</p>
+										<p class="sale-item-old-price">
+											4 800 &#8381;
+										</p>
+										<button class="sale-item-to-cart" type="button">В корзину</button>
+									</div>
+								</li>
+							</ul><!-- end of sale-slider -->
+						</div><!-- end of sale-slider-wrap -->
+						<div class="news">
+							<h3 class="news-name">Новости</h3>
+							<div class="news-wrap">
+								<div class="news-item">
+									<p class="news-item-date">
+										27 апреля 2017
+									</p>
+									<a href="#" class="news-item-link">
+										Бесплатная доставка!
+									</a>
+									<p class="news-item-txt">
+										Акция действует с 08.11.2016г. до  09.12.2017г. по московскому времени 
+										при заказе ремонта...
+									</p>
+								</div>
+								<div class="news-item">
+									<p class="news-item-date">
+										19 Марта 2017
+									</p>
+									<a href="#" class="news-item-link">
+										Мы переехали в новый офис!
+									</a>
+									<p class="news-item-txt">
+										Наша команда переехала в новый современный офис по ул...
+									</p>
+								</div>
+								<div class="news-item">
+									<p class="news-item-date">
+										25 февраля 2016
+									</p>
+									<a href="#" class="news-item-link">
+										Встречайте новый магазин
+									</a>
+									<p class="news-item-txt">
+										Мы открыли новый магазин в Самаре 
+										на Московском шоссе
+									</p>
+								</div>
+							</div><!-- end of news-wrap -->
+						</div><!-- end of news -->
+						<div class="feedbacks">
+							<h3 class="feedbacks-name">Отзывы</h3>
+							<div class="feedbacks-wrap">
+								<div class="feedbacks-item">
+									<p class="feedbacks-item-date">
+										01.05.2017										
+									</p>
+									<p class="feedbacks-item-name">
+										Салтыкова Мария										
+									</p>
+									<div class="feedbacks-item-rating">
+										<img src="img/star-1.png" alt="">
+										<img src="img/star-1.png" alt="">
+										<img src="img/star-1.png" alt="">
+										<img src="img/star-1.png" alt="">
+										<img src="img/star-2.png" alt="">								
+									</div>
+									<p class="feedbacks-item-txt">
+										Купила в этом магазине куклу 
+										«Беби Бон» Дочка очень довольна)
+										большое спасибо сотрудникам!!)
+									</p>
+								</div>		
+								<div class="feedbacks-item">
+									<p class="feedbacks-item-date">
+										01.05.2017										
+									</p>
+									<p class="feedbacks-item-name">
+										Салтыкова Мария										
+									</p>
+									<div class="feedbacks-item-rating">
+										<img src="img/star-1.png" alt="">
+										<img src="img/star-1.png" alt="">
+										<img src="img/star-1.png" alt="">
+										<img src="img/star-1.png" alt="">
+										<img src="img/star-2.png" alt="">								
+									</div>
+									<p class="feedbacks-item-txt">
+										Купила в этом магазине куклу 
+										«Беби Бон» Дочка очень довольна)
+										большое спасибо сотрудникам!!)
+									</p>
+								</div>
+								<div class="feedbacks-item">
+									<p class="feedbacks-item-date">
+										01.05.2017										
+									</p>
+									<p class="feedbacks-item-name">
+										Салтыкова Мария										
+									</p>
+									<div class="feedbacks-item-rating">
+										<img src="img/star-1.png" alt="">
+										<img src="img/star-1.png" alt="">
+										<img src="img/star-1.png" alt="">
+										<img src="img/star-1.png" alt="">
+										<img src="img/star-2.png" alt="">								
+									</div>
+									<p class="feedbacks-item-txt">
+										Купила в этом магазине куклу 
+										«Беби Бон» Дочка очень довольна)
+										большое спасибо сотрудникам!!)
+									</p>
+								</div>
+							</div><!-- end of feedbacks-wrap -->
+							<a href="#" class="feedbacks-all">Все отзывы</a>
+						</div><!-- end of feedbacks -->
+					</aside><!-- end of sidebar -->
+				</div><!-- end of col -->
+				<div class="col-sm-7 col-md-9">
+					<div class="content">						
+						<div class="main-slider-wrap hidden-xs hidden-sm">
+							<ul class="main-slider">
+								<li class="main-slider-item" >
+									<img alt="" class="main-slider-img" src="img/slider-item.png" />
+									<div class="main-slider-info">
+										<h2 class="main-slider-info-name">
+											Бэби Борн Кукла Сестричка
+										</h2>
+										<p class="main-slider-info-txt">
+											Очередная новинка от всемирно 
+											известной компании Zapf Creation -
+											кукла Бэби Борн Сестричка
+										</p>
+										<a href="#" class="main-slider-info-more">
+											Подробнее
+											<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAHAgMAAACn9Y/zAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACVBMVEX///////////+OSuX+AAAAAnRSTlMA/iyWEiMAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAHUlEQVQI12MICGBg0NBgYODiYmBgamoA0yA+UBwAK0oDDfluZFUAAAAASUVORK5CYII=" width="9" height="7" alt="Слой-1592 копия 2.png">
+										</a>
+										<span class="main-slider-price">3 499 &#8381;</span>
+									</div><!-- end of main-slider-info -->
+								</li><!-- end of main-slider-item -->
+								<li class="main-slider-item" >
+									<img alt="" class="main-slider-img" src="img/slider-item.png" />
+									<div class="main-slider-info">
+										<h2 class="main-slider-info-name">
+											Бэби Борн Кукла Сестричка
+										</h2>
+										<p class="main-slider-info-txt">
+											Очередная новинка от всемирно 
+											известной компании Zapf Creation -
+											кукла Бэби Борн Сестричка
+										</p>
+										<a href="#" class="main-slider-info-more">
+											Подробнее
+											<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAHAgMAAACn9Y/zAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACVBMVEX///////////+OSuX+AAAAAnRSTlMA/iyWEiMAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAHUlEQVQI12MICGBg0NBgYODiYmBgamoA0yA+UBwAK0oDDfluZFUAAAAASUVORK5CYII=" width="9" height="7" alt="Слой-1592 копия 2.png">
+										</a>
+										<span class="main-slider-price">3 499 &#8381;</span>
+									</div><!-- end of main-slider-info -->
+								</li><!-- end of main-slider-item -->
+								<li class="main-slider-item" >
+									<img  alt="" class="main-slider-img" src="img/slider-item.png" />
+									<div class="main-slider-info">
+										<h3 class="main-slider-info-name">
+											Бэби Борн Кукла Сестричка
+										</h3>
+										<p class="main-slider-info-txt">
+											Очередная новинка от всемирно 
+											известной компании Zapf Creation -
+											кукла Бэби Борн Сестричка
+										</p>
+										<a href="#" class="main-slider-info-more">
+											Подробнее
+											<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAHAgMAAACn9Y/zAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACVBMVEX///////////+OSuX+AAAAAnRSTlMA/iyWEiMAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAHUlEQVQI12MICGBg0NBgYODiYmBgamoA0yA+UBwAK0oDDfluZFUAAAAASUVORK5CYII=" width="9" height="7" alt="Слой-1592 копия 2.png">
+										</a>
+										<span class="main-slider-price">3 499 &#8381;</span>
+									</div><!-- end of main-slider-info -->
+								</li><!-- end of main-slider-item -->			
+							</ul><!-- end of main-slider -->
+							<div class="main-prev"></div>
+							<div class="main-next"></div>
+						</div>
+						<div class="our-privileges">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-3">
+									<div class="our-privileges-item">
+										<img src="img/priv-1.png" alt="" class="our-privileges-img">
+										<p class="our-privileges-txt">Доставка по всей Росcии</p>
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-3">
+									<div class="our-privileges-item">
+										<img src="img/priv-2.png" alt="" class="our-privileges-img">
+										<p class="our-privileges-txt">Весь товар в наличии</p>
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-3">
+									<div class="our-privileges-item">
+										<img src="img/priv-3.png" alt="" class="our-privileges-img">
+										<p class="our-privileges-txt">14 дней на возврат</p>
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-3">
+									<div class="our-privileges-item">
+										<img src="img/priv-4.png" alt="" class="our-privileges-img">
+										<p class="our-privileges-txt">Только оригинальная продуйция</p>
+									</div>
+								</div>							
+							</div><!-- end of row -->
+						</div><!-- end of our-privileges -->
+						<div class="top-sale">
+							<h2 class="top-sale-name">Лидеры продаж</h2>
+							<div class="top-sale-wrap">
+								<div class="top-sale-item">
+									<div class="top-sale-item-img-wrap">
+										<img class="top-sale-item-img" src="img/leader-1.png" alt="">
+									</div>
+									<a href="#" class="top-sale-item-name">
+										Кукла Llorens 40 см
+									</a>
+									<p class="top-sale-item-count">
+										Доступно более 10 шт.
+									</p>
+									<p class="top-sale-item-price">
+										3 800 &#8381;
+									</p>
+									<button class="top-sale-item-to-cart" type="button">В корзину</button>
+								</div>
+								<div class="top-sale-item">
+									<div class="top-sale-item-img-wrap">
+										<img class="top-sale-item-img" src="img/leader-2.png" alt="">
+									</div>
+									<a href="#" class="top-sale-item-name">
+										Кукла Llorens 35 см
+									</a>
+									<p class="top-sale-item-count">
+										Доступно более 10 шт.
+									</p>
+									<p class="top-sale-item-price">
+										4 599 &#8381;
+									</p>
+									<button class="top-sale-item-to-cart" type="button">В корзину</button>
+								</div>
+								<div class="top-sale-item">
+									<div class="top-sale-item-img-wrap">
+										<img class="top-sale-item-img" src="img/leader-3.png" alt="">
+									</div>
+									<a href="#" class="top-sale-item-name">
+										Кукла Llorens 40 см
+									</a>
+									<p class="top-sale-item-count">
+										Доступно более 10 шт.
+									</p>
+									<p class="top-sale-item-price">
+										3 800 &#8381;
+									</p>
+									<button class="top-sale-item-to-cart" type="button">В корзину</button>
+								</div>
+								<div class="top-sale-item">
+									<div class="top-sale-item-img-wrap">
+										<img class="top-sale-item-img" src="img/leader-4.png" alt="">
+									</div>
+									<a href="#" class="top-sale-item-name">
+										Кукла Llorens 40 см
+									</a>
+									<p class="top-sale-item-count">
+										Доступно более 10 шт.
+									</p>
+									<p class="top-sale-item-price">
+										3 800 &#8381;
+									</p>
+									<button class="top-sale-item-to-cart" type="button">В корзину</button>
+								</div>
+								<div class="top-sale-item">
+									<div class="top-sale-item-img-wrap">
+										<img class="top-sale-item-img" src="img/leader-5.png" alt="">
+									</div>
+									<a href="#" class="top-sale-item-name">
+										Кукла Llorens 35 см
+									</a>
+									<p class="top-sale-item-count">
+										Доступно более 10 шт.
+									</p>
+									<p class="top-sale-item-price">
+										4 599 &#8381;
+									</p>
+									<button class="top-sale-item-to-cart" type="button">В корзину</button>
+								</div>
+								<div class="top-sale-item">
+									<div class="top-sale-item-img-wrap">
+										<img class="top-sale-item-img" src="img/leader-6.png" alt="">
+									</div>
+									<a href="#" class="top-sale-item-name">
+										Кукла Llorens 40 см
+									</a>
+									<p class="top-sale-item-count">
+										Доступно более 10 шт.
+									</p>
+									<p class="top-sale-item-price">
+										3 800 &#8381;
+									</p>
+									<button class="top-sale-item-to-cart" type="button">В корзину</button>
+								</div>
+							</div>
+						</div><!-- end of top-sale	 -->
+						<div class="latest-products">
+							<h2 class="latest-products-name">Новинки</h2>
+							<div class="latest-products-wrap">
+								<div class="latest-products-item">
+									<div class="latest-products-item-img-wrap">
+										<img class="latest-products-item-img" src="img/new-1.png" alt="">
+									</div>
+									<a href="#" class="latest-products-item-name">
+										Кукла Llorens 40 см
+									</a>
+									<p class="latest-products-item-count">
+										Доступно более 10 шт.
+									</p>
+									<p class="latest-products-item-price">
+										3 800 &#8381;
+									</p>
+									<button class="latest-products-item-to-cart" type="button">В корзину</button>
+								</div>
+								<div class="latest-products-item">
+									<div class="latest-products-item-img-wrap">
+										<img class="latest-products-item-img" src="img/new-2.png" alt="">
+									</div>
+									<a href="#" class="latest-products-item-name">
+										Кукла Llorens 35 см
+									</a>
+									<p class="latest-products-item-count">
+										Доступно более 10 шт.
+									</p>
+									<p class="latest-products-item-price">
+										4 599 &#8381;
+									</p>
+									<button class="latest-products-item-to-cart" type="button">В корзину</button>
+								</div>
+								<div class="latest-products-item">
+									<div class="latest-products-item-img-wrap">
+										<img class="latest-products-item-img" src="img/new-3.png" alt="">
+									</div>
+									<a href="#" class="latest-products-item-name">
+										Кукла Llorens 40 см
+									</a>
+									<p class="latest-products-item-count">
+										Доступно более 10 шт.
+									</p>
+									<p class="latest-products-item-price">
+										3 800 &#8381;
+									</p>
+									<button class="latest-products-item-to-cart" type="button">В корзину</button>
+								</div>
+							</div><!-- end of latest-products-wrap -->
+						</div><!-- end of latest-products -->
+						<div class="about-us">
+							<h3 class="about-us-name">
+								О компании
+							</h3>
+							<p class="about-us-txt">
+								Baby born - среди современных детей и их родителей нет тех, кому не знаком этот бренд. Великолепные игрушки для девочек абсолютно разного возраста созданы немецкой компанией Zapf Creation. История компании началась с 1932 года, когда в 
+								Баварии появилось кукольное производство супругов Макса и Розы Цапф. Компания развивалась, трансформировалась, 
+								появлялись самые разнообразные коллекции кукол и вот в 1991 году компания начала массовый выпуск кукол, очень похожих на живых младенцев Baby born. За 20 лет истории этой куклы появились несколько различных кукольных серий.
+							</p>
+							<p class="about-us-txt">
+								Baby born - младенцы ростом 43 сантиметра, максимально функциональные, почти живые малыши.
+								My little Baby born - это куколки меньшего размера - 32 сантиметра составляет их рост. У этих кукол меньше функций, 
+								но схожесть с настоящим ребенком сохраняется.
+							</p>
+							<p class="about-us-txt">
+								И третья серия - это My mini Baby Born, куклы-пупсы размером 14 сантиметров, без дополнительных функций, с подвижными руками и ногами. Серия таких кукол интересна разнообразием стилей, причесок и игровых наборов для девочек. Кроме кукол компания Zapf Creation под брендом Baby born выпускает игрушки и разнообразные сопутствующие товары: от бутылочки до коляски, от велосипедов до водных скутеров, огромный выбор одежды – у малышей Baby born есть все! На всех игрушках 
+								красуется логотип узнаваемого бренда Baby Born. 
+							</p>
+						</div>
+					</div><!-- end of content -->
+				</div><!-- end of col -->
+			</div><!-- end of row -->
+		</div><!-- end of container	 -->
+	</main><!-- end of main -->
+	<footer>
+		
+		<div class="container">
+			<div class="row">
+				<div class="footer-top">
+					<div class="footer-categories">
+						<h4 class="footer-categories-name">
+							Категории
+						</h4>
+						<div class="footer-categories-wrap">
+							<ul class="footer-categories-list">
+								<li class="footer-categories-list-item"><a href="#" class="footer-categories-list-link">Куклы и пупсы</a></li>
+								<li class="footer-categories-list-item"><a href="#" class="footer-categories-list-link">Одежда</a></li>
+								<li class="footer-categories-list-item"><a href="#" class="footer-categories-list-link">Обувь</a></li>
+								<li class="footer-categories-list-item"><a href="#" class="footer-categories-list-link">Аксессуары</a></li>					
+							</ul>
+							<ul class="footer-categories-list">
+								<li class="footer-categories-list-item"><a href="#" class="footer-categories-list-link">Питомцы</a></li>
+								<li class="footer-categories-list-item"><a href="#" class="footer-categories-list-link">Коляски</a></li>
+								<li class="footer-categories-list-item"><a href="#" class="footer-categories-list-link">Мебель</a></li>
+								<li class="footer-categories-list-item"><a href="#" class="footer-categories-list-link">Новинки</a></li>							
+							</ul>
+						</div>
+					</div><!-- end of footer-categories -->	
+					<div class="footer-customers">
+						<h4 class="footer-customers-name">
+							Покупателю
+						</h4>
+						<ul class="footer-customers-list">
+							<li class="footer-customers-list-item"><a href="#" class="footer-customers-list-link">Возврат/обмен товара</a></li>
+							<li class="footer-customers-list-item"><a href="#" class="footer-customers-list-link">Доставка и оплата</a></li>
+							<li class="footer-customers-list-item"><a href="#" class="footer-customers-list-link">О компании</a></li>
+							<li class="footer-customers-list-item"><a href="#" class="footer-customers-list-link">Контакты</a></li>			
+						</ul>							
+					</div><!-- end of footer-customers -->
+					<div class="footer-social">
+						<h4 class="footer-social-name">
+							Мы в социальных сетях
+						</h4>
+						<div class="foorer-social-wrap">
+							<a href="#" class="footer-social-link">
+								<img src="img/social-1.png" alt="">
+							</a>
+							<a href="#" class="footer-social-link">
+								<img src="img/social-2.png" alt="">
+							</a>
+							<a href="#" class="footer-social-link">
+								<img src="img/social-3.png" alt="">
+							</a>
+							<a href="#" class="footer-social-link">
+								<img src="img/social-4.png" alt="">
+							</a>
+						</div>
+					</div><!-- end of footer-social -->
+					<div class="footer-contacts">
+						<h4 class="footer-contacts-name">
+							Контакты
+						</h4>
+						<p class="footer-contacts-item">
+							<img class="footer-contacts-img" src="img/header-icon-1.png" alt="">
+							Санкт-Петербург ул. Королева, д. 9, оф. 5
+						</p>
+						<p class="footer-contacts-item">
+							<img class="footer-contacts-img" src="img/footer-icon-2.png" alt="">
+							<a class="footer-contacts-tel" href="tel:+78007882528">+7 (800) 788-25-28</a>
+							<a class="footer-contacts-tel" href="tel:+78007882528">+7 (800) 788-25-28</a>
+						</p>
+						<p class="footer-contacts-item">
+							<img class="footer-contacts-img" src="img/footer-icon-3.png" alt="">
+							lovebabyborn@mail.ru
+						</p>							
+					</div>
+
+				</div><!-- end of footer-top -->
+			</div><!-- end of row -->
+			<div class="row">
+				<div class="footer-bottom">
+					<p class="footer-copyright">
+						© 2010-2017 | LoveBabyBorn <br>
+						Все права защищены.							
+					</p>
+					<div class="footer-pay">
+						<img src="img/footer-pay.png" alt="" class="footer-pay-item">
+					</div>
+					<div class="footer-e-stock">
+						<p class="footer-e-stock-txt">
+							Узнавайте о наших акциях первыми!
+						</p>
+						<form class="footer-e-stock-mail" action="#" method="post">
+							<input class="footer-e-stock-mail-input" name="footer-e-stock-mail-input" placeholder="Ваш адресс эл. почты" type="email" required>
+							<button class="footer-e-stock-search-btn" type="submit">Подписаться</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div><!-- end of container -->		
+	</footer>
+
+	<div id="location-popup" class="location-popup mfp-hide">
+		<h2 class="location-popup-name" >Выберете ваш город</h2>
+		<form class="location-search" action="#" method="get">
+			<input class="location-search-input" name="location-form" placeholder="Поиск города" type="search" required>
+			<button class="location-search-btn" type="submit"><img src="img/location-s.png" alt=""></button>
+		</form>
+		<div class="location-cities-wrap">
+			<ul class="location-cities">
+				<li class="location-cities-item">
+					<a href="#" class="location-cities-link">Москва</a>
+				</li>
+				<li class="location-cities-item">
+					<a href="#" class="location-cities-link">Санкт-Петербург</a>
+				</li>		
+				<li class="location-cities-item">
+					<a href="#" class="location-cities-link">Архангельск</a>
+				</li>		
+				<li class="location-cities-item">
+					<a href="#" class="location-cities-link">Владивосток</a>
+				</li>		
+				<li class="location-cities-item">
+					<a href="#" class="location-cities-link">Воронеж</a>
+				</li>												
+			</ul>
+			<ul class="location-cities">
+				<li class="location-cities-item">
+					<a href="#" class="location-cities-link">Москва</a>
+				</li>
+				<li class="location-cities-item">
+					<a href="#" class="location-cities-link">Санкт-Петербург</a>
+				</li>		
+				<li class="location-cities-item">
+					<a href="#" class="location-cities-link">Архангельск</a>
+				</li>		
+				<li class="location-cities-item">
+					<a href="#" class="location-cities-link">Владивосток</a>
+				</li>		
+				<li class="location-cities-item">
+					<a href="#" class="location-cities-link">Воронеж</a>
+				</li>												
+			</ul>
+			<ul class="location-cities">
+				<li class="location-cities-item">
+					<a href="#" class="location-cities-link">Москва</a>
+				</li>
+				<li class="location-cities-item">
+					<a href="#" class="location-cities-link">Санкт-Петербург</a>
+				</li>		
+				<li class="location-cities-item">
+					<a href="#" class="location-cities-link">Архангельск</a>
+				</li>		
+				<li class="location-cities-item">
+					<a href="#" class="location-cities-link">Владивосток</a>
+				</li>		
+				<li class="location-cities-item">
+					<a href="#" class="location-cities-link">Воронеж</a>
+				</li>												
+			</ul>
+		</div>
+	</div><!-- end of location-popup -->
+
+	<div id="callback-popup" class="callback-popup mfp-hide">
+		<h2 class="callback-popup-name" >Обратный звонок</h2>
+		<form class="callback-form" action="#" method="get">
+			<label for="callback-form-name">Ваше имя:</label>
+			<input class="callback-input-name" id="callback-form-name"  type="text" required>
+			<label for="callback-form-name">Телефон:</label>
+			<input class="callback-input-phone" id="callback-form-phone"  type="tel" required>
+			<button class="callback-form-btn" type="submit">Отправить</button>
+		</form>	
+	</div><!-- end of callback-popup -->
+
+	<div id="enter-popup" class="enter-popup mfp-hide">
+		<h2 class="enter-popup-name" >Войти</h2>
+		<form class="enter-form" action="#" method="get">
+			<label for="enter-form-name">Логин:</label>
+			<input class="enter-input-name" id="enter-form-name"  type="text" required>
+			<label for="enter-form-pass">Пароль:</label>
+			<input class="enter-input-pass" id="enter-form-pass"  type="password" required>
+			<div class="enter-form-links-wrap">
+				<button class="enter-form-btn" type="submit">Войти</button>
+				<div class="enter-form-links">
+					<a href="#">Напомнить пароль</a><br>
+					<a href="#">Зарегистрироваться</a>
+				</div>
+			</div>
+			<label class="enter-form-checkbox-wrap">
+				<input checked class="enter-form-checkbox" type="checkbox"> Запомнить меня
+			</label>
+		</form>	
+		<div class="enter-popup-social">
+			<p class="enter-popup-social-txt">
+				Войти через социальные сети:
+			</p>
+			<div class="enter-popup-social-wrap">
+				<a href="#" class="enter-popup-social-item">
+					<img src="img/social-1.png" alt="">
+				</a>
+				<a href="#" class="enter-popup-social-item">
+					<img src="img/social-2.png" alt="">
+				</a>
+				<a href="#" class="enter-popup-social-item">
+					<img src="img/social-3.png" alt="">
+				</a>
+				<a href="#" class="enter-popup-social-item">
+					<img src="img/social-4.png" alt="">
+				</a>
+			</div>
+		</div>
+	</div><!-- end of enter-popup -->
+
+	<div id="registration-popup" class="registration-popup mfp-hide">
+		<h2 class="registration-popup-name" >Регистрация</h2>
+		<form class="registration-form" action="#" method="get">
+			<label for="registration-form-mail">E-mail:</label>
+			<input class="registration-input-mail" id="registration-form-mail"  type="email" required>
+			<label for="registration-form-pass">Пароль:</label>
+			<input class="registration-input-pass" id="registration-form-pass"  type="password" required>
+			<label class="registration-form-checkbox-wrap">
+				<input checked class="registration-form-checkbox" type="checkbox"> Даю согласие на обработку персональных данных от интернет-магазина 
+			</label>
+			<button class="registration-form-btn" type="submit">Зарегистрироваться</button>
+		</form>	
+		<div class="registration-popup-social">
+			<p class="registration-popup-social-txt">
+				Войти через социальные сети:
+			</p>
+			<div class="registration-popup-social-wrap">
+				<a href="#" class="registration-popup-social-item">
+					<img src="img/social-1.png" alt="">
+				</a>
+				<a href="#" class="registration-popup-social-item">
+					<img src="img/social-2.png" alt="">
+				</a>
+				<a href="#" class="registration-popup-social-item">
+					<img src="img/social-3.png" alt="">
+				</a>
+				<a href="#" class="registration-popup-social-item">
+					<img src="img/social-4.png" alt="">
+				</a>
+			</div>
+		</div>
+	</div><!-- end of registration-popup -->
+
+	<div id="thank-registration-popup mfp-hide" class="thank-registration-popup">
+		<div class="thank-registration-popup-block">
+			<img src="img/head.png" alt="" class="thank-registration-popup-img">
+			<h4 class="thank-registration-popup-name">
+				Спасибо за регистрацию!
+			</h4>
+			<p class="thank-registration-popup-txt">
+				Дальнейшие инструкции
+				мы отправили на Ваш
+				адрес электронной почты.
+			</p>
+			<div class="thank-registration-popup-social">
+			<p class="thank-registration-popup-social-txt">
+				Войти через социальные сети:
+			</p>
+			<div class="thank-registration-popup-social-wrap">
+				<a href="#" class="thank-registration-popup-social-item">
+					<img src="img/social-1.png" alt="">
+				</a>
+				<a href="#" class="thank-registration-popup-social-item">
+					<img src="img/social-2.png" alt="">
+				</a>
+				<a href="#" class="thank-registration-popup-social-item">
+					<img src="img/social-3.png" alt="">
+				</a>
+				<a href="#" class="thank-registration-popup-social-item">
+					<img src="img/social-4.png" alt="">
+				</a>
+			</div>
+		</div>
+
+		</div>
+	</div><!-- end of thank-registration-popup -->
+
+
+
+
+
+	<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>		
+	<script type="text/javascript" src="js/jquery-migrate-1.4.1.min.js" ></script>
+	<script src="js/components/jquery.magnific-popup.min.js" ></script>
+	<script src="js/components/jquery.bxslider.js" ></script>
+	<script type="text/javascript" src="js/custom.js" ></script>
+</body>
+</html>

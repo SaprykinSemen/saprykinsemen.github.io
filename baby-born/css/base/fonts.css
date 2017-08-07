@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'CirceRounded-Regular';
+	src: url('../../fonts/CirceRounded-Regular.eot');
+	src: local('☺'), url('../../fonts/CirceRounded-Regular.woff') format('woff'), url('../../fonts/CirceRounded-Regular.ttf') format('truetype'), url('../../fonts/CirceRounded-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CirceRounded-AltBold';
+	src: url('../../fonts/CirceRounded-AltBold.eot');
+	src: local('☺'), url('../../fonts/CirceRounded-AltBold.woff') format('woff'), url('../../fonts/CirceRounded-AltBold.ttf') format('truetype'), url('../../fonts/CirceRounded-AltBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ALSSchlangesans-Bold';
+	src: url('../../fonts/ALSSchlangesans-Bold.eot');
+	src: local('☺'), url('../../fonts/ALSSchlangesans-Bold.woff') format('woff'), url('../../fonts/ALSSchlangesans-Bold.ttf') format('truetype'), url('../../fonts/ALSSchlangesans-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
