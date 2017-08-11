@@ -1,0 +1,241 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.about_us {  
+		padding: 80px 50px 48px;
+		max-width: 1000px;
+		box-sizing: border-box;
+		margin: 0 auto;
+	}
+	.how_it_works{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.link1, .link3{
+		-webkit-transform: rotate(6deg) !important;
+		-ms-transform: rotate(6deg) !important;
+		transform: rotate(6deg) !important;
+	}
+	.link2{
+		-webkit-transform: rotate(-6deg) !important;
+		-ms-transform: rotate(-6deg) !important;
+		transform: rotate(-6deg) !important;
+	}
+	.price-item{
+		padding: 20px 0;
+	}
+	.callback-form{
+		flex-direction: column;
+		align-items: center;
+	}
+	.callback input {
+		width: 90%;
+
+		margin-bottom: 20px; }
+		.callback button {
+			width: 90%;
+		}
+		.price{
+			background: #2C2F33;
+		}
+		.our_portfolio h2{
+			margin-left: 20px;
+		}
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px) {
+		.header_topline-links{
+    // justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+    width: 275px;
+  }
+  .header_topline_links{
+  	padding: 0px;
+  }
+  .header_topline_links-item{
+  	padding: 5px;
+  }
+  .title h1 {
+  	font-size: 55px;
+  	margin-bottom: 40px;
+  }
+  .title p {
+  	margin-top: 40px;
+  	line-height: 53px;
+  	font-size: 44px;
+  	margin-bottom: 60px;
+  }
+  .title {
+  	padding-bottom: 65px;
+  }
+  .header_topline{
+  	padding-bottom: 20px;
+  }
+  .about_us h2,
+  .portfolio h2,
+  .how_it_works h2,
+  .price h2,
+  .another h2, 
+  .our_team h2,
+  .reviews h2,
+  .form2 h2,
+  .our_portfolio h2{
+  	font-size: 45px;
+  }
+  .how_it_works .img11, .how_it_works .img22, .how_it_works .img33, .how_it_works .img44, .how_it_works .img55, .how_it_works .img66 {
+  	display: inline-block;
+  }
+
+  .how_it_works .img1,
+  .how_it_works .img2,
+  .how_it_works .img3,
+  .how_it_works .img4,
+  .how_it_works .img5,
+  .how_it_works .img6 {
+  	display: none;
+  }
+
+  .shape1,
+  .shape2,
+  .shape3,
+  .shape4,
+  .shape5,
+  .shape6{
+  	text-align: center;
+  	margin-top: 45px !important;
+  }
+
+  .how_it_works .shape1 div,
+  .how_it_works .shape2 div,
+  .how_it_works .shape3 div,
+  .how_it_works .shape4 div,
+  .how_it_works .shape5 div,
+  .how_it_works .shape6 div{
+  	position: static;
+  	text-align: center;
+  }
+  .our_team-item h3,
+  .our_team-item h4,
+  .our_team-item p{
+  	text-align: center !important;
+  }
+  .our_team-item img{
+  	margin: 0 auto;
+  	margin-top: 30px;
+  }
+  .footer-social-links{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 300px;
+      margin: 0 auto;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.title h1 {
+		font-size: 44px;
+		margin-bottom: 18px;
+	}
+	.title p {
+		margin-top: 18px;
+		line-height: 45px;
+		font-size: 35px;
+		margin-bottom: 48px;
+	}
+	.title {
+		padding-bottom: 40px;
+	}
+	.title a{
+		font-size: 20px;
+	}
+	.header_topline-links{
+		padding-bottom: 30px;
+	}
+	.about_us h2,
+	.portfolio h2,
+	.how_it_works h2,
+	.price h2,
+	.another h2, 
+	.our_team h2,
+	.reviews h2,
+	.form2 h2,
+	.our_portfolio h2{
+		font-size: 38px;
+		text-decoration: underline;
+	}
+	.our_portfolio h2{
+			margin-left: 0px;
+			text-align: center;
+		}
+
+	.about_us h2 > img,
+	.portfolio h2 > img,
+	.how_it_works h2 > img,
+	.price h2 > img,
+	.another h2 > img, 
+	.our_team h2 > img,
+	.reviews h2 > img,
+	.form2 h2 > img,
+	.our_portfolio h2 > img{
+		display: none;
+	}
+	.about_us h2{
+		margin-bottom: 15px;
+	}
+
+	.about_us p,
+	.portfolio p,
+	.how_it_works p,
+	.price p,
+	.another p, 
+	.our_team p,
+	.reviews p,
+	.form2 p{
+		font-size: 16px;
+	}
+	.form2 form{
+		width: 92%;
+	}
+	
+	.form2 form input {
+		width: 95%;
+		display: block;
+		margin: 0 auto 20px!important;
+	}
+
+	.form2 form textarea {
+		width: 95%;
+		display: block;
+		margin: 0 auto;
+	}
+	.form2 form button {
+		width: 95%;
+	}
+
+
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.title h1 {
+		font-size: 28px;
+	}
+	.title p {
+		line-height: 28px;
+		font-size: 23px;
+	}
+	.title a {
+		font-size: 13px;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
