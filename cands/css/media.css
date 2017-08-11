@@ -237,10 +237,23 @@
 		flex-direction: column;
 		justify-content: space-around;
 	}
+	.about_us h2,
+	.portfolio h2,
+	.how_it_works h2,
+	.price h2,
+	.another h2, 
+	.our_team h2,
+	.reviews h2,
+	.form2 h2,
+	.our_portfolio h2{
+		font-size: 30px;
+		text-decoration: underline;
+	}
 	.portfolio {
-    width: 91vw;
-    margin: 0 auto;
-}
+		overflow: hidden;
+		// margin: 0 auto;
+		// width: 91vw;
+	}
 	.portfolio-btn {
     padding: 11px 12px;
     font-size: 17px;
