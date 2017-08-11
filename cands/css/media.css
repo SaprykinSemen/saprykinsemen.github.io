@@ -250,9 +250,9 @@
 		text-decoration: underline;
 	}
 	.portfolio {
-		overflow: hidden;
-		// margin: 0 auto;
-		// width: 91vw;
+		// overflow: hidden;
+		margin: 0 auto;
+		width: 91vw;
 	}
 	.portfolio-btn {
     padding: 11px 12px;
@@ -277,5 +277,10 @@
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
+	.portfolio {
+		// overflow: hidden;
+		margin: 0 auto;
+		width: 91vw;
+	}
 
 }
