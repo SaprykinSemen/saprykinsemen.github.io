@@ -172,7 +172,8 @@ header {
   // padding: 0 30px 30px 30px;
   max-width: 1000px;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  padding-top: 20px; }
   .our_portfolio h2 {
     font-family: 'heliosc';
     text-align: left;
