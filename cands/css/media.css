@@ -239,6 +239,7 @@
 	}
 	.portfolio {
     width: 91vw;
+    margin: 0 auto;
 }
 	.portfolio-btn {
     padding: 11px 12px;
