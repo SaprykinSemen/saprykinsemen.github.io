@@ -237,6 +237,9 @@
 		flex-direction: column;
 		justify-content: space-around;
 	}
+	.portfolio {
+    width: 91vw;
+}
 	.portfolio-btn {
     padding: 11px 12px;
     font-size: 17px;
