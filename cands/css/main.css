@@ -43,7 +43,9 @@ body {
 header {
   // font-family: 'RobotoRegular';
 }
-
+.navbar-brand{
+  z-index: 999;
+}
 .header_topline {
   overflow: hidden;
   font-size: 18px;
