@@ -725,12 +725,13 @@ header {
     color: #565656; }
 
 .reviews {
-  text-align: center;
+  // text-align: center;
   background: #ECECEC;
   padding: 90px 0;
   // font-family: Roboto;
   color: #565656; }
   .reviews h2 {
+    text-align: center;
     font-size: 60px;
     font-family: 'heliosc';
     margin-bottom: 50px;
@@ -738,7 +739,12 @@ header {
     margin-top: 0; }
   .reviews .item {
     margin-top: -100px; }
-    .reviews .item p {
+    .reviews-item div{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .reviews-item p {
       font-size: 16px;
       max-width: 870px;
       margin: 0 auto;
@@ -746,16 +752,19 @@ header {
       margin-top: 100px;
       font-weight: 300;
       padding: 20px; }
-    .reviews .item div {
+    .reviews-item div {
       width: 350px;
       margin: 0 auto; }
-      .reviews .item div img {
-        float: left;
-        margin: -50px 20px 0 0; }
-      .reviews .item div p {
-        font-size: 16px;
-        padding: 0; }
-        .reviews .item div p span {
+      .reviews-item div img {
+        // float: left;
+        // margin: -50px 20px 0 0; 
+      }
+      .reviews-item div p {
+        // font-size: 16px;
+        padding: 0; 
+        margin-top: 0;
+      }
+        .reviews-item div p span {
           font-weight: 500; }
   .reviews .carousel-indicators {
     bottom: -60px; }

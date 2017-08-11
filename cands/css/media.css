@@ -237,6 +237,25 @@
 		flex-direction: column;
 		justify-content: space-around;
 	}
+	.portfolio-btn {
+    padding: 11px 12px;
+    font-size: 17px;
+}
+	.reviews-item div{
+			flex-direction: column;
+      align-items: center;
+    }
+    .reviews-item div{
+			flex-direction: column;
+      align-items: center;
+    }
+
+   .reviews-item > p {
+    font-size: 14px;
+}
+    .reviews-item div > p{
+    	margin-top: 10px;
+    }
 }
 
 /* Custom, iPhone Retina */ 
