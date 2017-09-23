@@ -51,6 +51,7 @@ nav{
 .menu span{
 	display: inline-block;
 	color: rgb(77, 73, 89);
+	transition: 0.3s;
 }
 
 .menu li a:hover{
@@ -192,9 +193,9 @@ nav{
 
 /*SHOP*/
 .shop_wrap{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .shop_block{
@@ -214,6 +215,8 @@ flex-wrap: wrap;
 	display: -o-flex;
 	display: flex;
 	opacity: 0;
+	transition: 0.5s;
+	cursor: pointer;
 }
 
 .image_wrap:hover{
@@ -249,12 +252,13 @@ flex-wrap: wrap;
 	height: 50px;
 	width: 300px;
 	margin-top: 75px;
+	transition: 0.5s;
 }
- .shop_button button:hover{
- 	background-color: rgba(100, 194, 158, 0.8);
- }
+.shop_button button:hover{
+	background-color: rgba(100, 194, 158, 0.8);
+}
 
- /*MAILING*/
+/*MAILING*/
 
 .mailing{	
 	text-align: center;	
@@ -271,35 +275,36 @@ flex-wrap: wrap;
 	line-height: 34px;
 	padding: 40px 0;
 }
- 
- .mailing_email{ 	
- 	height: 70px;
- 	width: 400px !important; 	
- 	border-radius: 0;
- 	font-family: 'Conv_Lato-Italic', sans-serif; 	
+
+.mailing_email{ 	
+	height: 70px;
+	width: 400px !important; 	
+	border-radius: 0;
+	font-family: 'Conv_Lato-Italic', sans-serif; 	
 	color: rgb(146, 146, 146);	
 	font-size: 20px;
 	display: inline-block;
- }
+}
 
- .mailing form button{
- 	height: 70px;
- 	width: 126px;
- 	border-radius: 0;
- 	background-color: rgba(100, 194, 158, 1);
- 	font-family: 'Conv_Lato-Regular', sans-serif;	
- 	color: white;	
+.mailing form button{
+	height: 70px;
+	width: 126px;
+	border-radius: 0;
+	background-color: rgba(100, 194, 158, 1);
+	font-family: 'Conv_Lato-Regular', sans-serif;	
+	color: white;	
 	font-size: 24px;		
-	line-height: 24px;	
- }
+	line-height: 24px;
+	transition: 0.5s;
+}
 
- .mailing form button:hover{
- 	background-color: rgba(100, 194, 158, 0.8);
- }
+.mailing form button:hover{
+	background-color: rgba(100, 194, 158, 0.8);
+}
 
- .mailing form{
- 	margin-bottom: 112px;
- }
+.mailing form{
+	margin-bottom: 112px;
+}
 
 /*FOOTER*/
 footer{
@@ -371,5 +376,5 @@ footer div p span{
 
 
 
- 
+
 
