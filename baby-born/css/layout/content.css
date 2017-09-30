@@ -18,6 +18,7 @@
 	width: 100%;
 	vertical-align: middle;
 	padding-left: 18px;
+	transition: 0.5s;
 }
 .catalog-btn:hover{
 	text-decoration: none;
@@ -352,6 +353,7 @@
 	// cursor: pointer;
 	text-align: center;
 	margin-bottom: 28px;
+	transition: 0.5s;
 }
 
 .sale-item{

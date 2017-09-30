@@ -76,6 +76,7 @@ a:focus{
 .header-nav-link, .header-nav-link:hover,
 .header-enter-link, .header-enter-link:hover{
   color: #474546;
+  transition: 0.5s;
 }
 
 .header-nav-item:last-child{
@@ -191,6 +192,7 @@ a:focus{
   line-height: 25px;
   font-weight: 700;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .header-cart, .header-cart:hover{
