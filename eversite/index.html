@@ -1,16 +1,19 @@
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<meta charset="UTF-8">
 	<title>Главная</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="css/fonts.css" />
 	<link rel="stylesheet" type="text/css" href="css/fm.revealator.jquery.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 	<link rel="stylesheet" type="text/css" href="css/jquery.magnific-popup.css"/>	
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" type="text/css" href="css/media.css" />
+	<link rel="stylesheet" type="text/css" href="css/media.css" /> -->
+	<link rel="stylesheet" href="css/bundle.min.css">
 </head>
 <body >
 	<header>
@@ -73,12 +76,12 @@
 			</h2>
 			<div class="aptmnt_layout-slider">
 				<div class="aptmnt_layout-slider-item">
-					<img src="img/layout1.jpg" alt="" class="aptmnt_layout-slider-img">
+					<img src="img/1111111.jpg" alt="" class="aptmnt_layout-slider-img">
 					<h3 class="aptmnt_layout-slider-item-name">
 						1 - комнатные
 					</h3>
 					<p class="aptmnt_layout-slider-item-size">
-						29,5 - 58,5 m2
+						29,5 - 58,5 м2
 					</p>
 				</div>
 				<div class="aptmnt_layout-slider-item">
@@ -87,7 +90,7 @@
 						2 - комнатные
 					</h3>
 					<p class="aptmnt_layout-slider-item-size">
-						51,6 - 75,9 m2
+						51,6 - 75,9 м2
 					</p>
 				</div>
 				<div class="aptmnt_layout-slider-item">
@@ -96,7 +99,7 @@
 						3 - комнатные
 					</h3>
 					<p class="aptmnt_layout-slider-item-size">
-						78,8 - 103,7 m2
+						78,8 - 103,7 м2
 					</p>
 				</div>
 			</div>
@@ -161,8 +164,8 @@
 						Заказать звонок
 					</h2>
 					<form action="#" class="callback-form">
-						<input required="required" class="callback-form-name" type="text" id="name" placeholder="Имя">
-						<input required="required" class="callback-form-tel" type="tel" id="tel" placeholder="Телефон" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18" title="Формат телефона +7 (123) 456-78-91">
+						<input required="required" class="callback-form-name" type="text" id="name1" placeholder="Имя" pattern="^[А-Яа-яЁё\s]+$" title="Используйте кириллицу">
+						<input required="required" class="callback-form-tel" type="tel" id="phone1" placeholder="Телефон" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18" title="Формат телефона +7 (123) 456-78-91">
 						<input class="callback-form-submit" type="submit" value="Отправить">
 					</form>
 				</div>
@@ -203,8 +206,8 @@
 				Заказ звонка
 			</h3>
 			<form action="#" class="callback-form">
-				<input required="required" class="callback-form-name" type="text" id="name" placeholder="Имя">
-				<input required="required" class="callback-form-tel" type="tel" id="tel" placeholder="Телефон" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18" title="Формат телефона +7 (123) 456-78-91">
+				<input required="required" class="callback-form-name" type="text" id="name2" placeholder="Имя" pattern="^[А-Яа-яЁё\s]+$" title="Используйте кириллицу">
+				<input required="required" class="callback-form-tel" type="tel" id="phone2" placeholder="Телефон" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18" title="Формат телефона +7 (123) 456-78-91">
 				<input class="callback-form-submit" type="submit" value="Отправить">
 			</form>
 		</div>
@@ -228,13 +231,15 @@
 
 
 
-		<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>		
+		<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
 		<script type="text/javascript" src="js/jquery-migrate-1.4.1.min.js" ></script>
 		<script type="text/javascript" src="js/components/fm.revealator.jquery.min.js" ></script>
 		<script type="text/javascript" src="js/components/slick.min.js"></script>
 		<script type="text/javascript" src="js/components/jquery.magnific-popup.min.js" ></script>
+		<script type="text/javascript" src="js/components/jquery.maskedinput-1.2.2.js" ></script>
 		
 		
 		<script type="text/javascript" src="js/custom.js" ></script>
+		<!-- <script src="js/bundle.js"></script> -->
 	</body>
 	</html>

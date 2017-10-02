@@ -6,6 +6,13 @@ $(document).ready(function(){
 		alignTop: true,
 	});
 
+	jQuery(function($) {
+      $.mask.definitions['~']='[+-]';
+      $('#phone1').mask('+7 (999) 999-99-99');
+      $('#phone2').mask('+7 (999) 999-99-99');
+      });
+      
+
 
 
   $('.aptmnt_style-slider').slick({
