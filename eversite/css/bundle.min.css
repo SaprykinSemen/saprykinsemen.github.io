@@ -1688,7 +1688,7 @@ header {
 .main_desc-item-list {
   list-style-type: none;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 48px;
 }
 
@@ -1723,7 +1723,7 @@ header {
 
 .main_desc-item-desc {
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 48px;
   margin-bottom: 70px;
 }
@@ -1779,7 +1779,7 @@ header {
 .aptmnt_style-desc {
   max-width: 792px;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 48px;
   margin-bottom: 90px;
 }
@@ -1927,7 +1927,7 @@ header {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  max-width: 380px;
+  max-width: 400px;
 }
 
 .builder-content-item-txt {
@@ -1935,7 +1935,7 @@ header {
   margin-left: 20px;
   font-size: 30px;
   font-weight: 400;
-  line-height: 44px;
+  line-height: 43px;
 }
 
 .builder-content-item-img1 {
