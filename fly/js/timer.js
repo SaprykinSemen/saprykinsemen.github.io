@@ -1,1 +1,31 @@
-(function(){var _id="fc8d963fb638cdea94a552501c54e750";while(document.getElementById("timer"+_id))_id=_id+"0";document.write("<div id='timer"+_id+"' style='min-width:256px;height:62px;'></div>");var _t=document.createElement("script");_t.src="http://megatimer.ru/timer/timer.min.js";var _f=function(_k){var l=new MegaTimer(_id,{"view":[1,1,1,0],"type":{"currentType":"1","params":{"usertime":true,"tz":"3","utc":1511460000000}},"design":{"type":"text","params":{"number-font-family":{"family":"Open Sans","link":"<link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>"},"number-font-size":"50","number-font-color":"#ffffff","separator-margin":"21","separator-on":false,"separator-text":"","text-on":true,"text-font-family":{"family":"Comfortaa","link":"<link href='http://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic' rel='stylesheet' type='text/css'>"},"text-font-size":"12","text-font-color":"#ffffff"}},"designId":1,"theme":"black","width":256,"height":62});if(_k!=null)l.run();};_t.onload=_f;_t.onreadystatechange=function(){if(_t.readyState=="loaded")_f(1);};var _h=document.head||document.getElementsByTagName("head")[0];_h.appendChild(_t);}).call(this);
+var deadline = 'November 23 2017 18:00 GMT+03:00';
+
+function getTimeRemaining(endtime){
+  var t = Date.parse(endtime) - Date.parse(new Date());
+  // var seconds = Math.floor( (t/1000) % 60 );
+  var minutes = Math.floor( (t/1000/60) % 60 );
+  var hours = Math.floor( (t/(1000*60*60)) % 24 );
+  var days = Math.floor( t/(1000*60*60*24) );
+  return {
+   'total': t,
+   'days': days,
+   'hours': hours,
+   'minutes': minutes,
+   // 'seconds': seconds
+  };
+}
+
+function initializeClock(id, endtime){
+  var clock = document.getElementById(id);
+  var timeinterval = setInterval(function(){
+   var t = getTimeRemaining(endtime);
+   clock.innerHTML = '<div class = "timer_item timer_days_wrap">' + '<span class = "timer_days">' + t.days + '</span>' + '<span class = "timer_days_txt">дней</span>' + '</div>'+ 
+   '<div class = "timer_item timer_hours_wrap">' + '<span class = "timer_hours">' + t.hours + '</span>' + '<span class = "timer_hours_txt">часов</span>' + '</div>' +
+   '<div class = "timer_item timer_minutes_wrap">' + '<span class = "timer_minutes">' + t.minutes + '</span>' + '<span class = "timer_minutes_txt">минут</span>' + '</div>';
+   if(t.total<=0){
+    clearInterval(timeinterval);
+   }
+  },1000);
+}
+
+initializeClock('clockdiv', deadline);
