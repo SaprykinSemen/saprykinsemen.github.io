@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<title>IP.MATIKA</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<header class="header">
+		<div class="header-top wrapper">
+			<a href="index.html" class="header-top_logo-wrap">
+				<img src="img/logo.png" alt="IP.MATIKA" class="header-logo">					
+			</a>
+			<div class="header-top_content">
+				<div class="personal-manager">
+					<a href="#" class="personal-manager_link">
+						<img src="img/header_face.png" alt="" class="personal-manager_photo">
+					</a>
+					<div class="personal-manager_content">
+						<a href="#" class="personal-manager_content_title">
+							Ваш персональный менеджер
+						</a>
+						<p class="personal-manager_content_info">
+							<span class="personal-manager_content_info_name">
+								Наталья Иванова
+							</span>
+							<span class="personal-manager_slash">/</span>
+							<a href="mailto:natali@ipmatika.ru" class="personal-manager_content_info_mail">
+								natali@ipmatika.ru
+							</a>
+							<span class="personal-manager_slash">/</span>
+							<a href="tel:89161234567" class="personal-manager_content_info_phone">
+								8  916 123 45 67
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="entity">
+					<div class="entity_content">
+						<p class="entity_content_name">
+							<span class="entity_content_name1">Семенов А. И.</span>
+							/   
+							<span class="entity_content_name2">Milesight</span>
+						</p>
+						<p class="entity_content-org">
+							<span class="entity_content-org1">ООО «Строй-Опт»</span>
+							/   
+							<a href="javascript:;" class="entity_content-org2">Юр.лицо</a>
+						</p>
+					</div>
+					<a href="#login_popap" class="entity_icon">
+						<img src="img/header_user.png" alt="" class="entity_icon_img">
+					</a>
+					<div class="login_popap mfp-hide" id="login_popap">
+						<div class="login_popap_icon">
+							<img src="img/login_icon.png" alt="">
+						</div>
+						<h2>Авторизация</h2>
+						<form action="#" class="login-form">
+							<div class="login-form_inputs">
+								<input required="required" class="login-form-mail" type="email" id="login_email" placeholder="Email">
+								<div class="login-form-pass_wrap">
+									<input type="password" required="required" class="login-form-pass" id="login_pass" placeholder="Пароль">
+									<a href="#recollect_login_popap" class="login-form-pass_link">
+										Забыли пароль?
+									</a>
+								</div>
+							</div>
+							<input class="login-form-submit" type="submit" value="">
+						</form>
+					</div>
+					<div class="recollect_login_popap login_popap mfp-hide" id="recollect_login_popap">
+						<div class="login_popap_icon">
+							<img src="img/recollect_pass.png" alt="">
+						</div>
+						<h2>Забыли пароль</h2>
+						<form action="#" class="login-form">
+							<div class="login-form_inputs">
+								<input required="required" class="recollect_login-form-mail" type="email" id="recollect_login_email" placeholder="Введите Email">
+							</div>
+							<input class="recollect_login-form-submit" type="submit" value="">
+						</form>
+					</div>
+					<div class="entity_popover" id="entity_popover">
+						<button class="entity_popover_close-btn">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALBAMAAABbgmoVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAJFBMVEVOTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk7///+Tln+XAAAAC3RSTlMATRkYVW1uGjCAVhSg2QIAAAABYktHRAsf18TAAAAACXBIWXMAAAsSAAALEgHS3X78AAAAR0lEQVQI12MQYmBgYHZgMFVgYFArYGAKYmBKB4qoKQA5DAxMGSAOA0NnAwOYFwyiyhTUDBgY2JMYmJJBHAaGUgOGRUBxdgEAR7UJH/AKDIgAAAAASUVORK5CYII=" width="11" height="11" alt="Search-copy.png">
+						</button>
+						<div class="entity_popover_form">							
+							<p class="entity_popover_form_item">
+								<input class="radio" type="radio" name="entity_radio" id="entity_radio1">
+								<label for="entity_radio1" class="entity_popover_radio">
+									ОАО «УГМК»
+								</label>
+							</p>
+							<p class="entity_popover_form_item">
+								<input class="radio" type="radio" name="entity_radio" id="entity_radio2">
+								<label for="entity_radio2" class="entity_popover_radio">
+									ОАО «УГМК»
+								</label>
+							</p>
+							<p class="entity_popover_form_item">
+								<input class="radio" type="radio" name="entity_radio" id="entity_radio3">
+								<label for="entity_radio3" class="entity_popover_radio">
+									ОАО «Группа Альянс»
+								</label>
+
+							</p>
+							<p class="entity_popover_form_item">
+								<input class="radio" checked type="radio" name="entity_radio" id="entity_radio4">
+								<label for="entity_radio4" class="entity_popover_radio">
+									ООО «Строй-Опт»
+								</label>
+							</p>
+						</div><!-- end of entity_popover_form -->
+					</div><!-- end of entity_popover -->
+				</div><!-- end of entity -->
+			</div><!-- end of header-top_content -->
+		</div><!-- end of header-top -->
+		<div class="header-bottom">
+			<div class="wrapper">
+				<div class="header_cart">
+					<a href="#" class="header_cart_icon">
+						<img src="img/header-cart.png" alt="cart" class="header_cart_icon_img">
+					</a>
+					<p class="header_cart_info">
+						В корзине нет товаров
+					</p>
+				</div>
+				<div class="header_menus_wrap">
+					<nav class="header_menus">
+						<ul class="header_menu_one">
+							<li class="header_menu_one_item" >
+								<a href="index.html">
+									<img src="img/header-home.png" alt="" class="header_menu_one_item_icon">
+									Главная
+								</a>
+							</li>
+							<li class="header_menu_one_item" >
+								<a href="catalog.html">
+									<img src="img/header-catalog.png" alt="" class="header_menu_one_item_icon">
+									Каталог
+								</a>
+							</li>
+							<li class="header_menu_one_item" >
+								<a href="ordering.html">
+									<img src="img/header-orders.png" alt="" class="header_menu_one_item_icon">
+									Заказы
+								</a>
+							</li>
+						</ul>
+						<ul class="header_menu_two">
+							<li class="header_menu_two_item" >
+								<a class="callback_header_link" href="#callback_application_popap">Обратная связь</a>
+							</li>
+							<li class="header_menu_two_item" >
+								<a href="contacts.html">Контакты</a>
+							</li>
+							<li class="header_menu_two_item" >
+								<a href="settings.html">Настройки</a>
+							</li>					
+						</ul>
+					</nav><!-- end of header_menus -->
+					<div class="callback_application_popap mfp-hide" id="callback_application_popap">
+						<h2>Оставить заявку</h2>
+						<form action="#" class="callback_application_popap_form">
+							<div class="contacts_application_form_line">
+								<input required="required" class="contacts_application_form_input callback_form_input_name" type="text" placeholder="Имя">
+								<input required="required" class="contacts_application_form_input callback_form_input_company" type="text" placeholder="Компания">
+							</div>
+							<div class="contacts_application_form_line">
+								<input required="required" class="contacts_application_form_input callback_form_input_email" type="email" placeholder="Email">
+								<input required="required" class="contacts_application_form_input callback_form_input_tel" type="tel" placeholder="Телефон">						
+							</div>
+							<div class="contacts_application_form_line">
+								<textarea class="contacts_application_form_textarea" placeholder="Коментарий" name="" id=""></textarea>
+							</div>
+							<input class="callback_application_form_submit" type="submit" value="">
+						</form>
+					</div><!-- end of callback_application_popap -->
+
+					<div id="sb-search" class="sb-search">
+						<form>
+							<input class="sb-search-input" placeholder="Поиск по сайту" type="text" autocomplete="off" value="" name="search" id="search">
+							<input class="sb-search-submit" type="submit" value="">
+							<span class="sb-icon-search"></span>
+						</form>
+					</div>
+					<!-- </div> -->
+					<div class="header_help">
+						<ul class="header_help_list">
+							<li class="header_help_list_item"><a href="#">IP-телефоны</a></li>
+							<li class="header_help_list_item"><a href="#">IP-АТС</a></li>
+							<li class="header_help_list_item"><a href="#">IP-АТС серии S</a></li>
+							<li class="header_help_list_item"><a href="#">IP-АТС серии N</a></li>
+							<li class="header_help_list_item"><a href="#">IP-АТС серии U</a></li>
+							<li class="header_help_list_item"><a href="#">Модули ПО для IP-АТС</a></li>
+						</ul>
+					</div>
+
+					<!-- <a class="header-search" href="#"><img src="img/header-search.png" alt=""></a> -->
+					<button class="header-menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+				</div>
+			</div><!-- end of wrapper -->
+		</div><!-- end of header-bottom -->
+		<div class="rate">
+			<div class="rate_table_wrap">
+				<table>
+					<tr>
+						<th>Сегодня</th>
+						<th class="rate_hide"></th>
+						<th class="rate_hide">Курс ЦБ</th>
+					</tr>
+					<tr>
+						<td>
+							<span class="rate_up rate_usd">
+								57.6242 	&uarr;
+							</span>
+						</td>
+						<td class="rate_hide">
+							<span class="rate_plus">
+								+0,0906
+							</span>
+						</td>
+						<td class="rate_hide">
+							<span class="rate_up rate_usd">
+								57.6242 	&uarr;
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="rate_down rate_eur">
+								68.7514 	&darr;
+							</span>
+						</td>
+						<td class="rate_hide">
+							<span class="rate_minus">
+								-0,2362
+							</span>
+						</td>
+						<td class="rate_hide">
+							<span class="rate_down rate_eur">
+								68.7514 	&darr;
+							</span>
+						</td>
+					</tr>				
+				</table>
+			</div>
+			<div class="rate_table_wrap">				
+				<table>
+					<tr>
+						<th>Завтра</th>
+						<th class="rate_hide"></th>
+						<th class="rate_hide"></th>
+					</tr>
+					<tr>
+						<td>
+							<span class="rate_up rate_usd">
+								57.6242 	&uarr;
+							</span>
+						</td>
+						<td class="rate_hide">
+							<span class="rate_plus">
+								+0,0906
+							</span>
+						</td>
+						<td class="rate_hide">
+							USD
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAANCAMAAADYOB3GAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABBVBMVEU5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUo5tUr///9JQ2onAAAAVnRSTlMAGlyd3SEbWJfZ66tqKidjoOqvby4BBhkiEU+Eue7fomUpAj+QzPbn8PTW2rqGUBgeieTOdzoHDTMwEzipi0zD3G0E089XAwrgwUkSfrM7D2SUpCyCHDbVGfsAAAABYktHRFYKDemJAAAACXBIWXMAAAsSAAALEgHS3X78AAAAmUlEQVQoz2NgIB4wMjGzsBKrmI2dg5OLm4eXKMV8/AIsgkLCIqK4lYiJS0hCXCElLSMrJ6+giEexkrKKqpo6i4amlqq2JpeOrp4+XusNDI2MTUzNgCxzRQtLK0KutbbhslUkOtRE7ewdHM2JVu7E5Ozi6ka0cndHD08vUaKVe/sI+voRq9g/gDdQIyiYaMMZ3F04Q0KJV84AAFiYEIgbhhv4AAAAAElFTkSuQmCC" width="48" height="13" alt="Shape-1.png">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="rate_down rate_eur">
+								68.7514 	&darr;
+							</span>
+						</td>
+						<td class="rate_hide">
+							<span class="rate_minus">
+								-0,2362
+							</span>
+						</td>
+						<td class="rate_hide">
+							EUR
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAFCAMAAAAJ+f7NAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA1VBMVEXtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCT////pDk+BAAAARnRSTlMACyEiFAUsZZrD6/fn3ezerXA0AwkzQEQ1LhxKl+Dfn2oXI1mU0eiTNjB6ueb5zMC7yuT14curqrDQcyiko45NJB9UVU8xphCuUgAAAAFiS0dERhe6+e0AAAAJcEhZcwAACxIAAAsSAdLdfvwAAAB5SURBVAjXY2AgABiZmFlYCSkCAjZ2Dk4ubh5ePm5+AUEhYaioCLOomLi4hKSUCFyhiLSMrJy8gpgiiMOqpKyiqqauwaCppa2jK6enb2BgqGrEbWxiamBmbm5haaxvZY1qj5KWDYOtnb2DMFyE0VFD3MnZ2cVVBJu7AI+ODBUgxArxAAAAAElFTkSuQmCC" width="44" height="5" alt="Shape-1 copy.png">
+						</td>
+					</tr>				
+				</table>
+			</div>
+		</div><!-- end of rate -->
+	</header>
+	<main class="settings_cont">
+		<div class="settings_cont_head">
+			<div class="wrapper">
+				<h1>Настройка личного кабинета</h1>				
+			</div>
+		</div><!-- end settings_cont_head -->
+		<div class="settings_cont_main">
+			<div class="settings_cont_main_item">
+				<div class="settings_tabs" id="settings_org_tabs">
+					<div class="settings_tabs_menu_wrap">
+						<div class="wrapper">
+							<ul class="settings_tabs_menu">
+								<li class="settings_tabs_menu_item">
+									<a class="settings_tabs_menu_item_link" href="#settings_org_tabs-1">
+										Организация <span>1</span>
+									</a>
+								</li>
+								<li class="settings_tabs_menu_item">
+									<a class="settings_tabs_menu_item_link" href="#settings_org_tabs-2">
+										Организация <span>2</span>
+									</a>
+								</li>
+								<li class="settings_tabs_menu_item">
+									<a class="settings_tabs_menu_item_link" href="#settings_org_tabs-3">
+										Организация <span>3</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div><!-- end of settings_tabs_menu_wrap -->
+					<div class="wrapper">
+						<div id="settings_org_tabs-1">
+							<div class="settings_tabs_table">
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">Название компании</span>
+									<span class="settings_tabs_table_desc">ООО «Иннопрактика»</span>
+								</div>
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">Юридический адрес</span>
+									<span class="settings_tabs_table_desc">
+										652811, Кемеровская обл, город Осинники, улица Победы, дом 23, ОФИС 81
+									</span>
+								</div>
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">Фактический адрес</span>
+									<span class="settings_tabs_table_desc">
+										652811, Кемеровская обл, город Осинники, улица Победы, дом 23, ОФИС 81
+									</span>
+								</div>
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">ИНН</span>
+									<span class="settings_tabs_table_desc">
+										4222016009
+									</span>
+								</div>
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">КПП</span>
+									<span class="settings_tabs_table_desc">
+										4222016001
+									</span>
+								</div>
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">Банк</span>
+									<span class="settings_tabs_table_desc">
+										ООО БАНК «СКИБ»
+									</span>
+								</div>
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">БИК</span>
+									<span class="settings_tabs_table_desc">
+										043469564
+									</span>
+								</div>
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">Расчетный счет</span>
+									<span class="settings_tabs_table_desc">
+										780515764720
+									</span>
+								</div>
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">Примечание</span>
+									<span class="settings_tabs_table_desc">
+										Организация ООО «ИННОПРАКТИКА» зарегистрирована 31 октября 2016 года по адресу 652811, 
+										Кемеровская обл, город Осинники, улица Победы, дом 23, ОФИС 81. Компании был присвоен 
+										ОГРН 1164205079972 и выдан ИНН 4222016009. Основным видом деятельности является 
+										розничная торговля металлическими и неметаллическими конструкциями и т.п.. Компанию
+										возглавляет Шапран Игорь Владимирович.
+									</span>
+								</div>
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">Телефон</span>
+									<span class="settings_tabs_table_desc">
+										+7 916 123 45 67
+									</span>
+								</div>
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">Адрес получателя</span>
+									<span class="settings_tabs_table_desc">
+										156000, Костромская обл, Кострома г, Текстильщиков пр-кт, 46
+									</span>
+								</div>
+							</div>
+						</div>
+						<div id="settings_org_tabs-2">
+							<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem.</p>
+						</div>
+						<div id="settings_org_tabs-3">
+							<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante.</p>
+						</div>
+					</div>
+				</div><!-- end of settings_tab -->
+				<div class="settings_add">
+					<div class="wrapper">
+						<a href="#add_org_popap" class="settings_add_btn add_org_btn">Добавить юр.лицо</a>
+
+						<div class="settings_add_popap mfp-hide" id="add_org_popap">
+							<div class="settings_add_popap_icon">
+								<img src="img/add_org_icon.png" alt="">
+							</div>
+							<h2>Запрос на добавление юр.лица</h2>
+							<form action="#" class="settings_add_popap_form">
+								<div class="settings_add_popap_form_item">
+									<label for="add_org_popap_name">Название компании</label>
+									<div>										
+										<input required="required" type="text" id="add_org_popap_name">
+										<div class="settings_add_popap_form_item_radios">
+											<span>
+												<input type="radio" class="radio" name="add_org_popap_name_radio" id="add_org_popap_name_radio1">
+												<label for="add_org_popap_name_radio1">ООО</label>
+											</span>
+											<span>
+												<input type="radio" class="radio" name="add_org_popap_name_radio" id="add_org_popap_name_radio2">
+												<label for="add_org_popap_name_radio2">ОАО</label>
+											</span>
+											<span>
+												<input type="radio" class="radio" name="add_org_popap_name_radio" id="add_org_popap_name_radio3">
+												<label for="add_org_popap_name_radio3">ЗАО</label>
+											</span>
+											<span>
+												<input type="radio" class="radio" name="add_org_popap_name_radio" id="add_org_popap_name_radio4">
+												<label for="add_org_popap_name_radio4">ИП</label>
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="settings_add_popap_form_item settings_add_popap_form_item_textarea">
+									<label for="add_org_popap_address1">Юридический адрес</label>
+									<div>
+										<textarea required="required" id="add_org_popap_address1" name=""></textarea>
+										<div class="settings_add_popap_form_item_radios">
+											<input type="radio" class="radio" name="add_org_popap_address1_radio" id="add_org_popap_address1_radio1">
+											<label for="add_org_popap_address1_radio1">Фактический адрес совпадает с юридическим</label>											
+										</div>
+									</div>
+								</div>
+								<div class="settings_add_popap_form_item settings_add_popap_form_item_textarea">
+									<label for="add_org_popap_address2">Фактический адрес</label>
+									<textarea required="required" id="add_org_popap_address2" name=""></textarea>
+								</div>
+								<div class="settings_add_popap_form_item">
+									<label for="add_org_popap_inn">ИНН</label>
+									<input required="required" type="text" id="add_org_popap_inn">
+								</div>
+								<div class="settings_add_popap_form_item">
+									<label for="add_org_popap_kpp">КПП</label>
+									<input required="required" type="text" id="add_org_popap_kpp">
+								</div>
+								<div class="settings_add_popap_form_item">
+									<label for="add_org_popap_bank">Банк</label>
+									<input required="required" type="text" id="add_org_popap_bank">
+								</div>
+								<div class="settings_add_popap_form_item">
+									<label for="add_org_popap_byk">БИК</label>
+									<input required="required" type="text" id="add_org_popap_byk">
+								</div>
+								<div class="settings_add_popap_form_item">
+									<label for="add_org_popap_checkink-acc">Расчетный счет</label>
+									<input required="required" type="text" id="add_org_popap_checkink-acc">
+								</div>
+								<div class="settings_add_popap_form_item settings_add_popap_form_item_textarea">
+									<label for="add_org_popap_note">Примечание</label>
+									<textarea required="required" id="add_org_popap_note" name=""></textarea>
+								</div>
+								<div class="settings_add_popap_form_item">
+									<label for="add_org_popap_checkink-tel">Телефон</label>
+									<input required="required" type="tel" id="add_org_popap_checkink-tel">
+								</div>
+								<div class="settings_add_popap_form_item settings_add_popap_form_item_textarea">
+									<label for="add_org_popap_addres3">Адрес получателя</label>
+									<div>
+										<textarea required="required" id="add_org_popap_address3" name=""></textarea>
+										<div class="settings_add_popap_form_item_radios">
+											<input type="radio" class="radio" name="add_org_popap_address3_radio" id="add_org_popap_address3_radio1">
+											<label for="add_org_popap_address3_radio1">Совпадает с фактическим адресом</label>
+										</div>
+									</div>
+								</div>
+								<div class="settings_add_popap_form_agree_wrap">
+									<input type="checkbox" checked id="settings_add_popap_form_agree">
+									<label for="settings_add_popap_form_agree">
+										Согласен (а) на обработку персональных данных
+									</label>
+								</div>
+								<input value="" type="submit" class="settings_add_popap_form_submit">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div><!-- end of settings_cont_main_item -->
+			<div class="settings_cont_main_item">
+				<div class="settings_tabs" id="settings_men_tabs">
+					<div class="settings_tabs_menu_wrap">
+						<div class="wrapper">
+							<ul class="settings_tabs_menu">
+								<li class="settings_tabs_menu_item">
+									<a class="settings_tabs_menu_item_link" href="#settings_men_tabs-1">
+										Менеджер <span>1</span>
+									</a>
+								</li>
+								<li class="settings_tabs_menu_item">
+									<a class="settings_tabs_menu_item_link" href="#settings_men_tabs-2">
+										Менеджер <span>2</span>
+									</a>
+								</li>
+								<li class="settings_tabs_menu_item">
+									<a class="settings_tabs_menu_item_link" href="#settings_men_tabs-3">
+										Менеджер <span>3</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div><!-- end of settings_tabs_menu_wrap -->
+					<div class="wrapper">
+						<div id="settings_men_tabs-1">
+							<div class="settings_tabs_table">
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">Имя</span>
+									<span class="settings_tabs_table_desc">Иван</span>
+								</div>
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">Фамилия</span>
+									<span class="settings_tabs_table_desc">
+										Иванов
+									</span>
+								</div>
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">E-mail</span>
+									<span class="settings_tabs_table_desc">
+										Ivanov@mail.ru
+									</span>
+								</div>
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">Телефон</span>
+									<span class="settings_tabs_table_desc">
+										+7 915 123 45 67
+									</span>
+								</div>
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">Дата рождения</span>
+									<span class="settings_tabs_table_desc">
+										25.09.1988
+									</span>
+								</div>
+								<div class="settings_tabs_table_row">
+									<span class="settings_tabs_table_name">Должность</span>
+									<span class="settings_tabs_table_desc">
+										Менеджер
+									</span>
+								</div>								
+							</div>
+						</div>
+						<div id="settings_men_tabs-2">
+							<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem.</p>
+						</div>
+						<div id="settings_men_tabs-3">
+							<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante.</p>
+						</div>
+					</div>
+				</div><!-- end of settings_tab -->
+				<div class="settings_add">
+					<div class="wrapper">
+						<a href="#add_men_popap" class="settings_add_btn add_men_btn">Добавить менеджера</a>
+
+						<div class="settings_add_popap mfp-hide" id="add_men_popap">
+							<div class="settings_add_popap_icon">
+								<img src="img/add_men_icon.png" alt="">
+							</div>
+							<h2>Запрос на добавление сотрудника</h2>
+							<form action="#" class="settings_add_popap_form">
+								<div class="settings_add_popap_form_item">
+									<label for="add_men_popap_name1">Имя</label>
+									<input required="required" type="text" id="add_men_popap_name1">
+								</div>
+								<div class="settings_add_popap_form_item">
+									<label for="add_men_popap_name2">Фамилия</label>
+									<input required="required" type="text" id="add_men_popap_name2">
+								</div>
+								<div class="settings_add_popap_form_item">
+									<label for="add_men_popap_email">E-mail</label>
+									<input required="required" type="email" id="add_men_popap_email">
+								</div>
+								<div class="settings_add_popap_form_item">
+									<label for="add_men_popap_tel">Телефон</label>
+									<input required="required" type="tel" id="add_men_popap_tel">
+								</div>
+								<div class="settings_add_popap_form_item">
+									<label for="add_men_popap_date">Дата рождения</label>
+									<input required="required" type="text" id="add_men_popap_date">
+								</div>
+								<div class="settings_add_popap_form_item">
+									<label for="add_men_popap_position">Должность</label>
+									<input required="required" type="text" id="add_men_popap_position">
+								</div>
+								<input value="" type="submit" class="settings_add_popap_form_submit">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div><!-- end of settings_cont_main_item -->
+		</div><!-- end of settings_cont_main -->
+		<div class="settings_subscribe">
+			<h3>Подписаться на рассылку</h3>
+			<div class="settings_subscribe_wrap">
+				<div class="settings_subscribe_item">
+					<div class="settings_subscribe_item_img">
+						<img src="img/settings_subscribe1.png" alt="">
+					</div>
+					<div class="settings_cont_subscribe_item_radio_wrap">
+						<input class="radio" type="checkbox" name="" id="settings_subscribe_radio1">
+						<label for="settings_subscribe_radio1" class="">
+							Быть в курсе новостей
+						</label>
+					</div>
+				</div>
+				<div class="settings_subscribe_item">
+					<div class="settings_subscribe_item_img">
+						<img src="img/settings_subscribe2.png" alt="">
+					</div>
+					<div class="settings_cont_subscribe_item_radio_wrap">
+						<input class="radio" type="checkbox" name="" id="settings_subscribe_radio2">
+						<label for="settings_subscribe_radio2" class="">
+							Знать когда скидки
+						</label>
+					</div>
+				</div>
+				<div class="settings_subscribe_item">
+					<div class="settings_subscribe_item_img">
+						<img src="img/settings_subscribe3.png" alt="">
+					</div>
+					<div class="settings_cont_subscribe_item_radio_wrap">
+						<input class="radio" type="checkbox" name="" id="settings_subscribe_radio3">
+						<label for="settings_subscribe_radio3" class="">
+							Рабочая информация
+						</label>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="settings_unsubscribe_btn">
+				Отписаться от рассылки
+			</a>
+		</div>
+
+	</main>	
+	<footer>
+		<div class="wrapper">
+			<div class="footer_links">
+				<a href="#" class="footer_links_item">
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+				</a>
+				<a href="#" class="footer_links_item">
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+				</a>
+				<a href="#" class="footer_links_item">
+					<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+				</a>
+				<a href="#" class="footer_links_item">
+					<i class="fa fa-google-plus" aria-hidden="true"></i>
+				</a>
+			</div>
+			<div class="footer_bottom">
+				<p class="footer_copyright">
+					© ООО «АйПиМатика», 2017	
+				</p>
+				<nav class="footer_nav">
+					<a href="#" class="footer_nav_item">
+						Техническая поддержка
+					</a>
+					<a href="#" class="footer_nav_item">
+						Инструкция пользователя
+					</a>
+					<a href="#" class="footer_nav_item">
+						Часто задаваемые вопросы
+					</a>
+				</nav>
+				<a href="#subscribe_popap" class="footer_subscribe_btn">
+					Подписаться на новости
+				</a>
+			</div>
+		</div>
+		<div class="subscribe_popap mfp-hide" id="subscribe_popap">
+			<form action="#" class="subscribe-form">
+				<legend class="subscribe_popap_name">Подписка на новости</legend>
+				<input required="required" class="subscribe-form-name" type="text" id="name1" placeholder="Имя">
+				<input required="required" class="subscribe-form-mail" type="email" id="email1" placeholder="Email">
+				<input class="subscribe-form-submit" type="submit" value="">
+			</form>
+		</div>
+	</footer>
+
+
+
+	<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>		
+	<script type="text/javascript" src="js/jquery-migrate-1.4.1.min.js" ></script>
+	<script type="text/javascript" src="js/components/jquery-ui.min.js" ></script>
+
+	<!-- <script type="text/javascript" src="js/components/jquery.bxslider.min.js" ></script> -->
+	<script type="text/javascript" src="js/components/jquery.magnific-popup.min.js" ></script>
+	<script type="text/javascript" src="js/components/classie.js" ></script>
+	<script type="text/javascript" src="js/components/uisearch.js" ></script>
+	<script type="text/javascript" src="js/custom.js" ></script>
+</body>
+</html>
