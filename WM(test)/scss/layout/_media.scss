@@ -1,0 +1,218 @@
+@media only screen and (max-width : 1200px) {
+
+}
+
+
+
+@media only screen and (max-width : 992px) {
+
+
+}
+
+
+@media only screen and (max-width : 768px) {
+	.header_nav{
+		position: relative;
+		height: 55px;
+	}
+
+	.header_nav_menu{
+		display: none;
+		position: absolute;
+		width: 100%;
+		top: 55px;
+		background-color: rgba(255, 255, 255, 1);
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	}
+
+	.header_nav_btn{
+		display: block;
+		background-color: rgb(67, 89, 147);
+		border-radius: 7px;
+		padding: 10px;
+		border: none;
+		cursor: pointer;
+		transition: 0.3s;
+		margin-left: 15px;
+		font-family: 'Roboto';
+		&:hover{
+			background-color: rgba(67, 89, 147, 0.8);
+			transition: 0.3s;
+		}
+	}
+
+	.header_nav_menu_link{
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 15px;
+		transition: 0.5s;
+		&:hover{
+			background-color: #435993;
+			color: #fff;
+			transition: 0.5s;
+		}
+	}
+
+	main{
+		padding-top: 55px;
+	}
+
+	.main_head_bg{
+		height: 160px;
+	}
+
+	.main_name {
+		margin-bottom: 40px;
+		font-size: 60px;
+	}
+
+	.personal-info {
+		max-width: 80%;
+	}
+
+	.personal-info_name {
+		margin-top: 21px;
+		margin-bottom: 40px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+
+	.personal-info input {
+		height: 46px;
+		font-size: 19px;
+		margin-bottom: 16px;
+	}
+
+	.personal-info_date_wrap .ui-datepicker-trigger {
+		top: 8px;
+	}
+
+	.expirience {
+		padding-bottom: 60px;
+	}
+
+	.expirience_skills {
+		padding: 0 50px;
+	}
+
+	.expirience_skills_item {
+		width: 50%;
+	}
+
+	.level_slider {
+		margin-top: 130px;
+	}
+
+	.js-level {
+		padding-bottom: 60px;
+	}
+
+	.about{
+		max-width: 80%;
+		padding-bottom: 45px;
+	}
+
+	.about textarea{
+		font-size: 19px;
+	}
+
+	.form_btn{
+		margin-bottom: 60px;
+	}
+
+}
+
+
+
+
+@media only screen and (max-width : 480px) {   
+
+	.main_head_bg {
+		height: 120px;
+	}
+
+	.main_name {
+		margin-bottom: 35px;
+		font-size: 50px;
+	}
+
+	.personal-info {
+		max-width: 100%;
+		padding-bottom: 50px;
+	}
+
+	.personal-info input {
+		height: 42px;
+		font-size: 13px;
+		margin-bottom: 16px;
+	}
+
+	.personal-info_date_wrap .ui-datepicker-trigger {
+		top: 6px;
+	}
+
+	.personal-info_date_wrap {
+		width: 100%;
+	}
+
+	.expirience_skills{
+		width: 280px;
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	.expirience_skills_item{
+		width: 100%;
+	}
+	.level_slider_txt span {
+		width: auto;
+		font-size: 9px;
+	}
+
+	.level_slider {
+		margin-top: 90px;
+		height: 9px;
+	}
+
+	.level_slider_txt{
+		bottom: 23px;
+	}
+
+
+
+	.level_slider .ui-slider-handle{
+		top: 9px;
+	}
+
+	.about {
+		max-width: 100%;
+		padding-bottom: 30px;
+	}
+
+	.about textarea {
+		font-size: 13px;
+		height: 135px;
+	}
+
+	.about_text {
+		font-size: 15px;
+		font-weight: 300;
+		line-height: 19px;
+		margin-bottom: 25px;
+	}
+
+	.form_btn {
+    margin-bottom: 30px;
+    width: 104px;
+    height: 42px;
+}
+
+
+}
+
+
+@media only screen and (max-width : 320px) {
+
+}

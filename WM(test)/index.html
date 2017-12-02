@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>WM</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Pixel Glass -->
+	<!-- <style>
+	HTML {
+		background-repeat: no-repeat;
+		background-position:  50% 0;
+		/* Mobile layout by default */
+		background-image: url( "img/Фон.jpg" );
+	}	
+</style>
+<link href="node_modules/pixel-glass/styles.css" rel="stylesheet">
+<script src="node_modules/pixel-glass/script.js"></script> -->
+<!-- // Pixel Glass -->
+</head>
+<body>
+	<header>
+			<nav class="header_nav">
+				<button class="header_nav_btn"><img src="img/bar-menu_icon-icons.com_70305.svg" alt=""></button>
+				<ul class="header_nav_menu">
+					<li class="header_nav_menu_item">
+						<a class="header_nav_menu_link" href="#personal-info">Личная информация</a>
+					</li>
+					<li class="header_nav_menu_item">
+						<a class="header_nav_menu_link" href="#expirience">Опыт</a>
+					</li>
+					<li class="header_nav_menu_item">
+						<a class="header_nav_menu_link" href="#js-level">JavaScript</a>
+					</li>
+					<li class="header_nav_menu_item">
+						<a class="header_nav_menu_link" href="#about">О себе</a>
+					</li>
+				</ul>
+			</nav>
+	</header>
+	<main>
+		<div class="main_head_bg">
+		</div>		
+		<div class="wrapper">
+			<h1 class="main_name">
+				Анкета
+			</h1>
+			<form action="#">
+				<div id="personal-info" class="personal-info">
+					<img src="img/personal-icon.svg" alt="">
+					<h2 class="personal-info_name">Личная информация</h2>
+					<input type="text" placeholder="ФИО" value="Сапрыкин Семен Владиславович">
+					<div class="personal-info_date_wrap">
+						<input class="personal-info_date" id="datepicker" type="text" value="22.01.1995" placeholder="Дата рождения">
+					</div>
+					<input type="text" value="Днепропетровск" placeholder="Место проживания">
+					<input type="text" value="simon200916" placeholder="Skype">
+					<input type="email" value="saprykinsemendp@gmail.com" placeholder="E-mail">
+				</div><!-- personal-info -->
+				<div id="expirience" class="expirience">
+					<img src="img/exp-icon.svg" alt="">
+					<h2 class="expirience_name">Расскажите о своем опыте</h2>
+					<div class="expirience_skills">
+						<div class="expirience_skills_item">
+							<input type="checkbox" class="checkbox" id="checkbox1" />
+							<label for="checkbox1">БЭМ/OOCSS</label>
+						</div>
+						<div class="expirience_skills_item">
+							<input checked type="checkbox" class="checkbox" id="checkbox2" />
+							<label for="checkbox2">Верстаю семантично</label>
+						</div>
+						<div class="expirience_skills_item">
+							<input type="checkbox" class="checkbox" id="checkbox3" />
+							<label for="checkbox3">Webpack</label>
+						</div>
+						<div class="expirience_skills_item">
+							<input checked type="checkbox" class="checkbox" id="checkbox4" />
+							<label for="checkbox4">Stylus/LESS/SASS</label>
+						</div>
+						<div class="expirience_skills_item">
+							<input type="checkbox" class="checkbox" id="checkbox5" />
+							<label for="checkbox5">ES2015/ES2016</label>
+						</div>
+						<div class="expirience_skills_item">
+							<input checked type="checkbox" class="checkbox" id="checkbox6" />
+							<label for="checkbox6">jQuery</label>
+						</div>
+						<div class="expirience_skills_item">
+							<input checked type="checkbox" class="checkbox" id="checkbox7" />
+							<label for="checkbox7">Работаю с SVG</label>
+						</div>
+						<div class="expirience_skills_item">
+							<input checked type="checkbox" class="checkbox" id="checkbox8" />
+							<label for="checkbox8">Gulp/GRUNT</label>
+						</div>
+						<div class="expirience_skills_item">
+							<input checked type="checkbox" class="checkbox" id="checkbox9" />
+							<label for="checkbox9">Ипользую Git</label>
+						</div>
+					</div><!-- expirience_skills -->
+				</div><!-- expirience -->
+				<div id="js-level" class="js-level">
+					<img src="img/js-icon.svg" alt="">
+					<h2 class="js-level_name">Уровень владения JavaScript</h2>
+
+					<div class="level_slider_wrap">
+						
+						<div class="level_slider" id="level_slider">
+							<div class="level_slider_txt">
+								<span>
+									Не владею
+								</span>
+								<span>
+									Использую готовые<br>
+									решения
+								</span>
+								<span>
+									Использую готовые решения<br>
+									и умею и переделывать
+								</span>
+								<span>
+									Пишу сложный JS с нуля
+								</span>
+							</div>
+						</div>
+					</div>
+				</div><!-- js-level -->
+				<div id="about" class="about">
+					<img src="img/about-icon.svg" alt="">
+					<h2 class="about_name">
+						Расскажите о себе
+					</h2>
+					<p class="about_text">
+						Напишите несколько предложений, чем привлекла наша вакансия
+						и что вы ожидаете от работы у нас.
+					</p>
+					<textarea placeholder="Понравилась тем, что...">Меня привлекла  возможность участвовать в создании интересных и не тривиальных проектов, а также перспектива роста и обучения. Хочу изучать новые технологии и делать то, чем буду гордиться.</textarea>
+				</div><!-- about -->
+				<button class="form_btn" type="submit">Готово</button>
+
+			</form>
+		</div><!-- wrapper -->
+	</main>
+
+
+
+
+	<script src="js/jquery-3.0.0.min.js"></script>
+	<script src="js/jquery-migrate-1.4.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+
+	<script src="js/custom.js"></script>
+</body>
+</html>
