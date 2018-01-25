@@ -350,6 +350,7 @@ button:focus {
   background: transparent;
   border-radius: 50%;
   padding: 5px;
+  color: transparent;
 }
 
 .main_slider_dots .slick-active button {
@@ -405,7 +406,7 @@ button:focus {
   transition: 0.2s;
   background-color: #ffcb93;
   color: #000;
-  border: 1px solid #000;
+  border: 1px solid #001;
 }
 
 /*----- END SLIDER -----*/
@@ -578,6 +579,7 @@ button:focus {
   background: transparent;
   border-radius: 50%;
   padding: 5px;
+  color: transparent;
 }
 
 .comments_slider_dots .slick-active button {
